@@ -1,0 +1,104 @@
+﻿@model IEnumerable<LoginEkrani.Models.Admin.DepoModel>
+
+<link rel="stylesheet" href="~/css/DepoTanıms.css">
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+
+@{
+    var user = User;
+    var isAdmin = user.IsInRole("Admin");
+}
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <form asp-action="YeniDepoEkle" method="get">
+        <button type="submit" style="margin-right: 9px; background-color:white;color:black; border-color:white" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-plus"></i>Yeni</button>
+    </form>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="duzenle" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-pen-to-square"></i>Düzenle</button>
+    
+    @if (isAdmin)
+    {
+
+        <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="sil" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-trash"></i>Sil</button>
+    }
+</div>
+
+
+<h3>Depo Listesi</h3>
+
+<div class="datatable">
+    <table id="example" class="table table-striped" style="width:300%">
+        <thead>
+            <tr>
+                <th>Depo Kodu</th>
+                <th>Depo Adı</th>
+                <th>Depo Turu</th>
+                <th>Depo Sorumlusu</th>
+                <th>Durum</th>
+                <th>Açıklama</th>
+                <th>Uzunluk</th>
+                <th>Genislik</th>
+                <th>Yukseklik</th>
+                <th>Alan</th>
+
+
+            </tr>
+            <tr>
+                <th><input class="form-control" id="stokKoduSearch" type="text"></th>
+                <th><input class="form-control" id="stokAdiSearch" type="text"></th>
+                <th><input class="form-control" id="birimSearch" type="text"></th>
+                <th><input class="form-control" id="durumSearch" type="text"></th>
+                <th><input class="form-control" id="grupKoduSearch" type="text"></th>
+                <th><input class="form-control" id="stokKartTipSearch" type="text"></th>
+                <th><input class="form-control" id="satisKdvOraniSearch" type="text"></th>
+                <th><input class="form-control" id="alisKdvOraniSearch" type="text"></th>
+                <th><input class="form-control" id="kaliteSearch" type="text"></th>
+                <th><input class="form-control" id="kritikMiktarSearch" type="text"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.kpsft_depoKod</th>
+                    <th>@item.kpsft_depoAd</th>
+                    <th>@item.depoTuru.kpsft_depoTuru</th>
+                    <th>@item.kpsft_depoSorumlusu</th>
+                    <th>@item.kpsft_durum</th>
+                    <th>@item.kpsft_aciklama</th>
+                    <th>@item.kpsft_uzunluk</th>
+                    <th>@item.kpsft_genislik</th>
+                    <th>@item.kpsft_yukseklik</th>
+                    <th>@item.kpsft_alan</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+<!-- Modal for Deletion Confirmation -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteConfirmationModalLabel">Onayla</h5>
+            </div>
+            <div class="modal-body">
+                Silmek istediğinizden emin misiniz?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="close" data-bs-dismiss="modal">Hayır</button>
+                <button type="button" class="btn btn-danger" id="confirmDelete">Evet</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/css/DepoTanıms.js"></script>
+
+

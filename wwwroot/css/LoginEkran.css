@@ -1,0 +1,112 @@
+﻿/* Genel Ayarlar */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background: linear-gradient(to left, #4b0082, #4b0082 ); /* Geçiş sağdan sola */
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* Sol Taraf */
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-logo img {
+    max-width: 300px;
+    margin-bottom: -46px;
+}
+
+.form-container {
+    width: 90%;
+    max-width: 450px;
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.1);
+}
+
+    .form-container label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 9px;
+        border: 1px solid #ccc;
+    }
+
+    .form-container button {
+        width: 95%;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: #007bff;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+
+.psw {
+    display: block;
+    margin-top: 15px;
+    text-align: right;
+}
+
+    .psw a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .psw a:hover {
+            text-decoration: underline;
+        }
+
+.alert {
+    margin-top: 10px;
+}
+
+/* Sağ Taraf */
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+    .right .logo {
+        max-width: 75%;
+    }
+
+
+@media (max-width: 768px) {
+    .right {
+        display: none; /* Sağ bölmeyi gizle */
+    }
+
+    .left {
+        flex: 1 1 100%; /* Sol bölmeyi genişlet */
+    }
+}

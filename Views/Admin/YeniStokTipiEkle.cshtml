@@ -1,0 +1,33 @@
+﻿@model LoginEkrani.Models.Admin.StokTipi
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniObjeEkle.css" />
+
+<div class="miniContainer2">
+    <h3>Yeni Stok Tipi Ekle</h3>
+    <form action="YeniStokTipiEklee" method="post">
+        <div class="container" style="float: inline-start">
+            <div class="col-md-6">
+                <label class="form-label" style="width: 100%">Stok Kodu</label>
+                <input style="width: 100%;" type="text" class="form-control" name="kpsft_kod" id="kpsft_kod" value="@Model.kpsft_kod">
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label" style="width: 100%">Stok Tipi</label>
+                <input style="width: 100%;" type="text" class="form-control" name="kpsft_stok_tipi" id="kpsft_stok_tipi" value="@Model.kpsft_stok_tipi">
+            </div>
+
+            <div class="col-md-6">
+                <label for="kpsft_aciklama" class="form-label">Açıklama</label>
+                <div class="text-area">
+                    <textarea name="kpsft_aciklama" rows="4" cols="50" placeholder="Açıklama">@Model.kpsft_aciklama</textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+    </form>
+</div>

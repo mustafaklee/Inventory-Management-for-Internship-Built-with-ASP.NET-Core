@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+
+@{
+    var user = User;
+    var isAdmin = user.IsInRole("Admin");
+}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOSKAY MES</title>
+    <link rel="stylesheet" href="/css/indexx.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.3/css/dataTables.bootstrap5.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.3/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.3/js/dataTables.bootstrap5.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <!-- Sidebar Menu -->
+    <div class="side-bar active">
+        <div class="logo">
+            <img src="~/css/azupir-mes2.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <div class="item"><a href="/Admin/AdminIndex"><i class="fas fa-desktop"></i> Ana Ekran</a></div>
+            <div class="item">
+                <a class="sub-btn"><i class="fas fa-boxes"></i> Envanter Yönetimi<i class="fas fa-angle-right dropdown"></i></a>
+                <div class="sub-menu">
+                    <a href="/Admin/StokKartıTanım"><i class="fas fa-tags"></i> Stok Kartı Tanımlama</a>
+                    <a href="/Admin/CariTanım"><i class="fas fa-user-tie"></i> Cari Kart Tanım</a>
+                    <a href="/Admin/DepoTanım"><i class="fa-solid fa-warehouse"></i> Depo Tanım</a>
+                    <a href="/Admin/GirisFisiTanım"><i class="fas fa-file-invoice"></i> Giriş Fişi</a>
+                    <a href="/Admin/CikisFisiTanım"><i class="fas fa-file-invoice"></i> Çıkış Fişi</a>
+                    <a href="/Admin/DepolarArasıTransfer"><i class="fas fa-exchange-alt"></i> Depolar Arası Transfer</a>
+                    <a href="/Admin/StokHareketleriMain"> <i class="fas fa-boxes"></i> Stok Hareketleri</a>
+                    <a href="/Admin/KutukSiparisListesi"> <i class="fas fa-newspaper"></i> Sipariş Formu</a>
+                </div>
+            </div>
+            <div class="item"><a href="/Admin/MalKabulList"><i class="fa-solid fa-truck"></i> Mal Kabul İşlemleri</a></div>
+            @if (isAdmin)
+            {
+                <div class="item"><a href="/Login/UserList"><i class="fas fa-user"></i> Kullanıcı İşlemleri</a></div>
+            }
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="#"><i class="fa fa-fw fa-search"></i> Ara</a>
+        <div class="user-message">
+            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mesaj Kutusu</a>
+            <a href="#"><i class="fa fa-fw fa-user"></i> Bilgilerim</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- İçerik -->
+        @RenderBody()
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Jquery for toggle sub menus
+            $('.sub-btn').click(function () {
+                $(this).next('.sub-menu').slideToggle();
+                $(this).find('.dropdown').toggleClass('rotate');
+            });
+
+            // Jquery for expand and collapse the sidebar
+            $('.menu-btn').click(function () {
+                $('.side-bar').addClass('active');
+                $('.menu-btn').css("visibility", "hidden");
+            });
+        });
+    </script>
+</body>
+</html>

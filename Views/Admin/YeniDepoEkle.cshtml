@@ -1,0 +1,147 @@
+﻿@model LoginEkrani.Models.Admin.DepoModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniDepoEkle.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<h3>Depo Tanım</h3>
+<div class="container2">
+    <form asp-action="YeniDepoEkle" method="post" id="myForm">
+        <button type="submit" id="saveButton" class="btn btn-primary saveButton" style="margin-bottom:10px; font-size: 12px; background-color:#384c5c;">
+            <i class="fa-regular fa-floppy-disk"></i> Kaydet
+        </button>
+
+        <div class="miniContainer" style="margin-bottom:30px; display:flex;">
+            <div class="birinciGrup">
+                <div class="col-md-6">
+                    <label for="kpsft_depoKod" class="form-label" style="width:100%">Depo Kodu <span class="required">*</span></label>
+                    <input style="width:100%;" type="text" class="form-control" name="kpsft_depoKod" required id="kpsft_depoKod">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="kpsft_depoAd" class="form-label">Depo Adı <span class="required">*</span></label>
+                    <input type="text" style="width:100%;" class="form-control" name="kpsft_depoAd" required id="kpsft_depoAd">
+                </div>
+
+
+                <select class="form-select" aria-label="Default select example" name="kpsft_depoTuru" style="width: 72%; height: 11%; font-size: 12px; margin-left: 15px; margin-bottom: 11px;">
+                    <option selected>Depo Türü Seçiniz</option>
+
+                    @foreach (var DepoTur in ViewBag.DepoTurler)
+                    {
+                        <option value="@DepoTur.id_kpsft">@DepoTur.kpsft_depoTuru</option>
+                    }
+                </select>
+
+
+                <div class="form-check form-switch" style="margin-left:30px;">
+                    <input class="form-check-input" style="width: 10%; height: 60%; " type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" id="switchLabel" for="flexSwitchCheckChecked" style="margin-left: 5px;margin-top: 3px;">Aktif</label>
+                    <!-- Gizli input checkbox durumunu saklayacak -->
+                    <input type="hidden" id="checkboxValue" class="form-control" name="kpsft_durum">
+                </div>
+
+
+
+
+
+                <div class="col-md-6">
+                    <label for="kpsft_depoSorumlusu">Depo Sorumlusu <span class="required">*</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text" data-toggle="modal" style="height:26px; cursor: pointer;" data-target="#deposorumluModal">
+                            <i class="fa-solid fa-list"></i>
+                        </span>
+                        <input type="text" style="width:65%;" id="kpsft_depoSorumlusu" name="kpsft_depoSorumlusu" required >
+                    </div>
+                </div>
+            </div>
+
+            <div class="ucuncuGrup">
+                <label for="kpsft_aciklama">Açıklama</label>
+                <div class="text-area">
+                    <textarea id="w3review" name="kpsft_aciklama" rows="4" cols="50" placeholder="Açıklama"></textarea>
+                </div>
+            </div>
+
+           
+
+        </div>
+
+
+
+
+        <div class="tab">
+            <button class="tablinks active" type="button" onclick="openCity(event, 'London')">Depo Boyut Bilgileri</button>
+        </div>
+
+        <!-- Tab Content  -->
+        <div id="London" class="tabcontent">
+
+            <div class="col-md-6">
+                <label for="kpsft_genislik" class="form-label">Genişlik (m²)</label>
+                <input type="text" style="width:20%;" class="form-control" name="kpsft_genislik" id="kpsft_genislik">
+            </div>
+
+            <div class="col-md-6">
+                <label for="kpsft_yukseklik" class="form-label">Yükseklik (m) </label>
+                <input type="text" style="width:20%;" class="form-control" name="kpsft_yukseklik" id="kpsft_yukseklik">
+            </div>
+
+            <div class="col-md-6">
+                <label for="kpsft_uzunluk" class="form-label">Uzunluk (m)</label>
+                <input type="text" style="width:20%;" class="form-control" name="kpsft_uzunluk" id="kpsft_uzunluk">
+            </div>
+
+            <div class="col-md-6">
+                <label for="kpsft_alan" class="form-label">Alan (m²)</label>
+                <input type="text" style="width:20%;" class="form-control" name="kpsft_alan" id="kpsft_alan">
+            </div>
+        </div>
+
+
+    </form>
+</div>
+
+
+@* <div class="modal" id="deposorumluModal" tabindex="-1" aria-labelledby="deposorumluModal" inert>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deposorumluModal">Depo Sorumlusunu Seçiniz</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ad Soyad</th>
+                            <th>Seç</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var sorumlu in ViewBag.DepoSorumlusu)
+                        {
+                            <tr>
+                                <td>@sorumlu.kpsft_ad @sorumlu.kpsft_soyad</td>
+                                <td>
+                                    <button class="btn btn-primary select-depoSorumlu" data-dismiss="modal" data-value="@sorumlu.kpsft_ad @sorumlu.kpsft_soyad">Seç</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+ *@
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+
+<script src="~/css/YeniDepoEkle.js"></script>

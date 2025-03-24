@@ -1,0 +1,26 @@
+﻿@model LoginEkrani.Models.Admin.SatisKdvOrani
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniObjeEkle.css" />
+
+<div class="miniContainer2">
+    <h3>Yeni Satış KDV Oranı Ekle</h3>
+    <form asp-action="YeniSatisKdvOraniEklee" method="post">
+        <div class="container" style="float: inline-start">
+            <div class="col-md-6">
+                <label class="form-label" style="width: 100%">KDV Oranı</label>
+                <input style="width: 100%;" type="text" class="form-control" name="kpsft_kdv_orani" id="kpsft_kdv_orani" value="@Model.kpsft_kdv_orani">
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label" for="kpsft_aciklama">Açıklama</label>
+                <textarea class="form-control" name="kpsft_aciklama" rows="4">@Model.kpsft_aciklama</textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+    </form>
+</div>

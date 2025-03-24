@@ -1,0 +1,4760 @@
+{
+  "Version": 1,
+  "Hash": "Dgik9XX3lLpuRBGki+mIlgfl+UIG8/r9Vy2m7h9QpQ8=",
+  "Source": "LoginEkrani",
+  "BasePath": "_content/LoginEkrani",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LoginEkrani\\wwwroot",
+      "Source": "LoginEkrani",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/AdmınIndex#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdmınIndex.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/AdmınIndex#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4f7a7p774g",
+      "Integrity": "EN9FoXEH/TRVr1EKFJ53gnIvvvsoNqaa6l+RY73ZNNk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdmınIndex.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\azupir-mes2.png",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/azupir-mes2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eso21naar5",
+      "Integrity": "/maky0CevvNqbYGT7h0hoh8uwct2bnFR2u8C6HJKWPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\azupir-mes2.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiDuzenle.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariCikisFisiDuzenle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pwjvl3acsd",
+      "Integrity": "d8iNZw3ProDTahlFQlFmHfmFzPqT2JcePUBYzt3XzOA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariCikisFisiDuzenle.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariCikisFisiEkle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q6nx5heoty",
+      "Integrity": "XiPVFLMravGpS4iSNf9FD7yrr5YyzuXlHRA3o2zBvq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariCikisFisiEkle.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariCikisFisiEkle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyui357ipe",
+      "Integrity": "y4vVEzKz7tmG921f2P20Z/8W7+dx5zR+PDQkCSfrRLk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariCikisFisiEkle.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiDuzenlee.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariGirisFisiDuzenlee#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ea7p5ng17i",
+      "Integrity": "JhIlhum9I/1/WAA8OjOEGSMSDN7M+Q/j49PbSnJO2HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariGirisFisiDuzenlee.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariGirisFisiEkle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ba5a4qpju1",
+      "Integrity": "vUrUXVjNFEqUHtxUU+pGaKgIJakIxtjpFr3+CCRomEk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariGirisFisiEkle.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariGirisFisiEkle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ma1xq6s4f4",
+      "Integrity": "MokAhZwYw2reqkECj9zIFkgRX2Do29EqN1xDAP/1B2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariGirisFisiEkle.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariTanımss#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j80h7e9fny",
+      "Integrity": "c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariTanımss.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CariTanımss#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mbr99i0l3n",
+      "Integrity": "kmOXLeR9Vokc3qcvpbX1C7nmtsmfbKZzUKSCFRGuJm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CariTanımss.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CikisFisiTanım.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/CikisFisiTanım#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f17uxyuni4",
+      "Integrity": "I6ha/72Rw3g2wB4CywQ8j5l30sv7Uf/209W7qBtMQMQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CikisFisiTanım.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepolarArasıTransfer.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/DepolarArasıTransfer#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75hl5hgg0r",
+      "Integrity": "9awq7UjfFTaVyi+lx4wme06KKfzNw/JS9qDhA4GFey8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DepolarArasıTransfer.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/DepoTanıms#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j80h7e9fny",
+      "Integrity": "c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DepoTanıms.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/DepoTanıms#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s75b0ci5up",
+      "Integrity": "KP+f0FnNa7Mou/6thuO3+Af8HCUMTA+ZtWnSR5R/+kQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DepoTanıms.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Executaion.png",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/Executaion#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sxiwihyt72",
+      "Integrity": "4L1lEIIgvw9CDB2KDhcN6gO7jWpYtdgt1+JIwo2TthQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Executaion.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORM.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/FORM#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l1dlhm4rkr",
+      "Integrity": "Sf7p2jPErv9e1f1lfR8v+uRns9HPoUDH3n5iQHExLuk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\FORM.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORMM.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/FORMM#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n1do2l2i5t",
+      "Integrity": "9VGUFPOWHNqT2qMx2bcXMVzkhqFxbs8syLu4SdS/ms0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\FORMM.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanım.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/GirisFisiTanım#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u0xyslopkt",
+      "Integrity": "rqtbmXeUM9kxf4k56Ji1vWZPv4pM1Og4mqMASAMKPB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\GirisFisiTanım.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanimm.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/GirisFisiTanimm#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qb4n5pjzmm",
+      "Integrity": "WnEG3XZ3YuDSgqaAQwO3m/Uc/FfaqChijotDCvXpQUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\GirisFisiTanimm.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\indexx.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/indexx#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwzg7ud196",
+      "Integrity": "QDfeKesG5n7C0SsG/mw28Sh/2oIhKW+ofJe8wMxQnOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\indexx.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/KutukSiparisListesi#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j80h7e9fny",
+      "Integrity": "c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\KutukSiparisListesi.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/KutukSiparisListesi#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "92g2njumnk",
+      "Integrity": "0cANd75IuMs/X0ufNEhzBGBLTUMlP5KXiM6YJta9xDE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\KutukSiparisListesi.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\LoginEkran.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/LoginEkran#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "frx4aca9ud",
+      "Integrity": "FaLjPr30qo7Cdly75sKcvhIsgjAj4b63u3/frY827Qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginEkran.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo.png",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qigrzzy382",
+      "Integrity": "niRsYAYA8z3FR3GG2IWu+nLuysNwBHby3bmywTKx9uk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo-other.png",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/logo-other#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fwmh493mtt",
+      "Integrity": "L4aaE6/AXuwvI2Xk3GphU/kASSQeUc0WQyqCDes8NwQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\logo-other.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MalKabulList.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/MalKabulList#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3cdjnjwxzd",
+      "Integrity": "Q61UxDsXMJlG3XyCqQyuvMtv8P/XBvUmOVp0odKdw6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MalKabulList.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MES.png",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/MES#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7i43utl7b0",
+      "Integrity": "cUTtJp34SaPZwzGjO1zVeOlOiPD04GYbx2WvHmXuz+A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MES.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/Register#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn6lla7gny",
+      "Integrity": "9iHwlthuTxQMUIuh3K3Wp6njR0Q5D5KbZmhYkvOoh1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Register.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/Register#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Register.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketler.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokHaraketler#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f5sz7panv4",
+      "Integrity": "Q0SUmxFqpT94KGqH0R53dbdXuTx8fHczv3PM/HSNjAA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokHaraketler.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketleri.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokHaraketleri#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uvwvkm3d7b",
+      "Integrity": "OtRKSkrpeBVVDOpMtZNdn8AtVQCQVeJq17fl3dDeMc4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokHaraketleri.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHareketleriMain.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokHareketleriMain#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z5tvgywnq0",
+      "Integrity": "mcLBK8qOQYO7wthXZGDzWftuDZrJ4AWNxcx/vLdXpaA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokHareketleriMain.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıEkl.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokKartıEkl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ys3lcm2n5",
+      "Integrity": "S3rP7tJ2i0gTE+/h30Stz6beLw4vKho0eti+KXRQcJw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokKartıEkl.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıTanım.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokKartıTanım#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j80h7e9fny",
+      "Integrity": "c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokKartıTanım.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiDuzenlee.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokKartiDuzenlee#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lxqznhmdze",
+      "Integrity": "GW7r6VD01zFak9K5tdMvEqC9H3xHhIIX1u1agq0dcWg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokKartiDuzenlee.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiEkle.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokKartiEkle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q96aevf2mc",
+      "Integrity": "wqcDlbqFbjyJ5Y8qEnUeLaCJ9Am675BTmnJX4WRKFx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokKartiEkle.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiTanımm.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/StokKartiTanımm#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mqhzil2e3t",
+      "Integrity": "jqoybdhxQVoAOS78c5GZAZTqriqw4xZI1XY7NVmFyQQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StokKartiTanımm.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UretimdenCikisFisiEkle.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/UretimdenCikisFisiEkle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k7g0k6rw9a",
+      "Integrity": "EG7AYVRr4whDYmjFwMAhy9uaFhPUqpSusNnwKuTGzvk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\UretimdenCikisFisiEkle.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/UserList#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kt1j50sh6h",
+      "Integrity": "CEsAOXe2ani+o/WiCH6/JCbZfKHtIZhAamlMYqKhz74=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\UserList.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/UserList#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jcydd720bt",
+      "Integrity": "3UfhLBc2AOGR9Go/TfHUtWUFG8D93IxRAEf/NfcBGpo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\UserList.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/YeniCariEkl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63n50c6lyp",
+      "Integrity": "IlQ/qz8OkhMSeWjS8tBjDokKPxyLndYEjcvP263Y2EI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\YeniCariEkl.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/YeniCariEkl#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "689j6vzumi",
+      "Integrity": "ivjF2IE0b/DmPwDWlJkRusQchqACgbinfII5Asr+VlM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\YeniCariEkl.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/YeniDepoEkle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ukj6rba8n6",
+      "Integrity": "nk8VpbW0B/djLsg7IPD2Im1RbkHS4irhtqpRI1uqL3c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\YeniDepoEkle.css"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.js",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/YeniDepoEkle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0t8yxa848g",
+      "Integrity": "FAqK7Sxklf4p0MZiR5DyWeJZw4ASKQNrLGc4+vnXbGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\YeniDepoEkle.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniObjeEkle.css",
+      "SourceId": "LoginEkrani",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\",
+      "BasePath": "_content/LoginEkrani",
+      "RelativePath": "css/YeniObjeEkle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2elod1gtwg",
+      "Integrity": "SpPXH+H8eqMJb1T6jf6OjftkAMIbP11bTaJuPpqdQqA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\YeniObjeEkle.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/AdmınIndex.3r8b2a0bt1.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:52:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/AdmınIndex.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdmınIndex.4f7a7p774g.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EN9FoXEH/TRVr1EKFJ53gnIvvvsoNqaa6l+RY73ZNNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Aug 2024 09:06:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4f7a7p774g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/AdmınIndex.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EN9FoXEH/TRVr1EKFJ53gnIvvvsoNqaa6l+RY73ZNNk="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdmınIndex.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:52:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdmınIndex.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EN9FoXEH/TRVr1EKFJ53gnIvvvsoNqaa6l+RY73ZNNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Aug 2024 09:06:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EN9FoXEH/TRVr1EKFJ53gnIvvvsoNqaa6l+RY73ZNNk="
+        }
+      ]
+    },
+    {
+      "Route": "css/azupir-mes2.eso21naar5.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\azupir-mes2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/maky0CevvNqbYGT7h0hoh8uwct2bnFR2u8C6HJKWPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:32:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eso21naar5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/azupir-mes2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/maky0CevvNqbYGT7h0hoh8uwct2bnFR2u8C6HJKWPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/azupir-mes2.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\azupir-mes2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/maky0CevvNqbYGT7h0hoh8uwct2bnFR2u8C6HJKWPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:32:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/maky0CevvNqbYGT7h0hoh8uwct2bnFR2u8C6HJKWPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariCikisFisiDuzenle.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiDuzenle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d8iNZw3ProDTahlFQlFmHfmFzPqT2JcePUBYzt3XzOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 17:17:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d8iNZw3ProDTahlFQlFmHfmFzPqT2JcePUBYzt3XzOA="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariCikisFisiDuzenle.pwjvl3acsd.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiDuzenle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d8iNZw3ProDTahlFQlFmHfmFzPqT2JcePUBYzt3XzOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 17:17:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pwjvl3acsd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariCikisFisiDuzenle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d8iNZw3ProDTahlFQlFmHfmFzPqT2JcePUBYzt3XzOA="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariCikisFisiEkle.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XiPVFLMravGpS4iSNf9FD7yrr5YyzuXlHRA3o2zBvq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 Aug 2024 14:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XiPVFLMravGpS4iSNf9FD7yrr5YyzuXlHRA3o2zBvq4="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariCikisFisiEkle.dyui357ipe.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y4vVEzKz7tmG921f2P20Z/8W7+dx5zR+PDQkCSfrRLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 02:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyui357ipe"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariCikisFisiEkle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y4vVEzKz7tmG921f2P20Z/8W7+dx5zR+PDQkCSfrRLk="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariCikisFisiEkle.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y4vVEzKz7tmG921f2P20Z/8W7+dx5zR+PDQkCSfrRLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 02:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y4vVEzKz7tmG921f2P20Z/8W7+dx5zR+PDQkCSfrRLk="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariCikisFisiEkle.q6nx5heoty.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XiPVFLMravGpS4iSNf9FD7yrr5YyzuXlHRA3o2zBvq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 Aug 2024 14:15:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q6nx5heoty"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariCikisFisiEkle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XiPVFLMravGpS4iSNf9FD7yrr5YyzuXlHRA3o2zBvq4="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariGirisFisiDuzenlee.ea7p5ng17i.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiDuzenlee.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhIlhum9I/1/WAA8OjOEGSMSDN7M+Q/j49PbSnJO2HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 16:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ea7p5ng17i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariGirisFisiDuzenlee.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhIlhum9I/1/WAA8OjOEGSMSDN7M+Q/j49PbSnJO2HA="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariGirisFisiDuzenlee.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiDuzenlee.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhIlhum9I/1/WAA8OjOEGSMSDN7M+Q/j49PbSnJO2HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 16:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhIlhum9I/1/WAA8OjOEGSMSDN7M+Q/j49PbSnJO2HA="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariGirisFisiEkle.ba5a4qpju1.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vUrUXVjNFEqUHtxUU+pGaKgIJakIxtjpFr3+CCRomEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Aug 2024 08:30:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ba5a4qpju1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariGirisFisiEkle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vUrUXVjNFEqUHtxUU+pGaKgIJakIxtjpFr3+CCRomEk="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariGirisFisiEkle.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vUrUXVjNFEqUHtxUU+pGaKgIJakIxtjpFr3+CCRomEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Aug 2024 08:30:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vUrUXVjNFEqUHtxUU+pGaKgIJakIxtjpFr3+CCRomEk="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariGirisFisiEkle.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MokAhZwYw2reqkECj9zIFkgRX2Do29EqN1xDAP/1B2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:48:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MokAhZwYw2reqkECj9zIFkgRX2Do29EqN1xDAP/1B2Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariGirisFisiEkle.ma1xq6s4f4.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MokAhZwYw2reqkECj9zIFkgRX2Do29EqN1xDAP/1B2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:48:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma1xq6s4f4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariGirisFisiEkle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MokAhZwYw2reqkECj9zIFkgRX2Do29EqN1xDAP/1B2Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariTanımss.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Sep 2024 20:33:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariTanımss.j80h7e9fny.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Sep 2024 20:33:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j80h7e9fny"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariTanımss.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariTanımss.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmOXLeR9Vokc3qcvpbX1C7nmtsmfbKZzUKSCFRGuJm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Sep 2024 09:11:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmOXLeR9Vokc3qcvpbX1C7nmtsmfbKZzUKSCFRGuJm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/CariTanımss.mbr99i0l3n.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmOXLeR9Vokc3qcvpbX1C7nmtsmfbKZzUKSCFRGuJm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Sep 2024 09:11:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mbr99i0l3n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CariTanımss.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmOXLeR9Vokc3qcvpbX1C7nmtsmfbKZzUKSCFRGuJm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/CikisFisiTanım.f17uxyuni4.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CikisFisiTanım.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6ha/72Rw3g2wB4CywQ8j5l30sv7Uf/209W7qBtMQMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Sep 2024 08:46:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f17uxyuni4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CikisFisiTanım.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6ha/72Rw3g2wB4CywQ8j5l30sv7Uf/209W7qBtMQMQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/CikisFisiTanım.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CikisFisiTanım.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6ha/72Rw3g2wB4CywQ8j5l30sv7Uf/209W7qBtMQMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Sep 2024 08:46:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6ha/72Rw3g2wB4CywQ8j5l30sv7Uf/209W7qBtMQMQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/DepolarArasıTransfer.75hl5hgg0r.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepolarArasıTransfer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9awq7UjfFTaVyi+lx4wme06KKfzNw/JS9qDhA4GFey8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Oct 2024 15:54:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75hl5hgg0r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DepolarArasıTransfer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9awq7UjfFTaVyi+lx4wme06KKfzNw/JS9qDhA4GFey8="
+        }
+      ]
+    },
+    {
+      "Route": "css/DepolarArasıTransfer.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepolarArasıTransfer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9awq7UjfFTaVyi+lx4wme06KKfzNw/JS9qDhA4GFey8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Oct 2024 15:54:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9awq7UjfFTaVyi+lx4wme06KKfzNw/JS9qDhA4GFey8="
+        }
+      ]
+    },
+    {
+      "Route": "css/DepoTanıms.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Sep 2024 17:33:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/DepoTanıms.j80h7e9fny.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Sep 2024 17:33:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j80h7e9fny"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DepoTanıms.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/DepoTanıms.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KP+f0FnNa7Mou/6thuO3+Af8HCUMTA+ZtWnSR5R/+kQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Sep 2024 21:41:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KP+f0FnNa7Mou/6thuO3+Af8HCUMTA+ZtWnSR5R/+kQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/DepoTanıms.s75b0ci5up.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KP+f0FnNa7Mou/6thuO3+Af8HCUMTA+ZtWnSR5R/+kQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Sep 2024 21:41:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s75b0ci5up"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DepoTanıms.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KP+f0FnNa7Mou/6thuO3+Af8HCUMTA+ZtWnSR5R/+kQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Executaion.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Executaion.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4L1lEIIgvw9CDB2KDhcN6gO7jWpYtdgt1+JIwo2TthQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Aug 2024 12:51:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4L1lEIIgvw9CDB2KDhcN6gO7jWpYtdgt1+JIwo2TthQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Executaion.sxiwihyt72.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Executaion.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4L1lEIIgvw9CDB2KDhcN6gO7jWpYtdgt1+JIwo2TthQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Aug 2024 12:51:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sxiwihyt72"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Executaion.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4L1lEIIgvw9CDB2KDhcN6gO7jWpYtdgt1+JIwo2TthQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/FORM.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORM.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sf7p2jPErv9e1f1lfR8v+uRns9HPoUDH3n5iQHExLuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:27:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sf7p2jPErv9e1f1lfR8v+uRns9HPoUDH3n5iQHExLuk="
+        }
+      ]
+    },
+    {
+      "Route": "css/FORM.l1dlhm4rkr.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORM.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sf7p2jPErv9e1f1lfR8v+uRns9HPoUDH3n5iQHExLuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:27:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l1dlhm4rkr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/FORM.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sf7p2jPErv9e1f1lfR8v+uRns9HPoUDH3n5iQHExLuk="
+        }
+      ]
+    },
+    {
+      "Route": "css/FORMM.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORMM.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VGUFPOWHNqT2qMx2bcXMVzkhqFxbs8syLu4SdS/ms0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Oct 2024 07:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VGUFPOWHNqT2qMx2bcXMVzkhqFxbs8syLu4SdS/ms0="
+        }
+      ]
+    },
+    {
+      "Route": "css/FORMM.n1do2l2i5t.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORMM.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VGUFPOWHNqT2qMx2bcXMVzkhqFxbs8syLu4SdS/ms0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Oct 2024 07:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n1do2l2i5t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/FORMM.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VGUFPOWHNqT2qMx2bcXMVzkhqFxbs8syLu4SdS/ms0="
+        }
+      ]
+    },
+    {
+      "Route": "css/GirisFisiTanım.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanım.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqtbmXeUM9kxf4k56Ji1vWZPv4pM1Og4mqMASAMKPB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 Aug 2024 08:30:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqtbmXeUM9kxf4k56Ji1vWZPv4pM1Og4mqMASAMKPB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/GirisFisiTanım.u0xyslopkt.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanım.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqtbmXeUM9kxf4k56Ji1vWZPv4pM1Og4mqMASAMKPB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 Aug 2024 08:30:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0xyslopkt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GirisFisiTanım.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqtbmXeUM9kxf4k56Ji1vWZPv4pM1Og4mqMASAMKPB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/GirisFisiTanimm.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanimm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WnEG3XZ3YuDSgqaAQwO3m/Uc/FfaqChijotDCvXpQUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 02:28:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WnEG3XZ3YuDSgqaAQwO3m/Uc/FfaqChijotDCvXpQUE="
+        }
+      ]
+    },
+    {
+      "Route": "css/GirisFisiTanimm.qb4n5pjzmm.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanimm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WnEG3XZ3YuDSgqaAQwO3m/Uc/FfaqChijotDCvXpQUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 02:28:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qb4n5pjzmm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GirisFisiTanimm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WnEG3XZ3YuDSgqaAQwO3m/Uc/FfaqChijotDCvXpQUE="
+        }
+      ]
+    },
+    {
+      "Route": "css/indexx.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\indexx.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDfeKesG5n7C0SsG/mw28Sh/2oIhKW+ofJe8wMxQnOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDfeKesG5n7C0SsG/mw28Sh/2oIhKW+ofJe8wMxQnOk="
+        }
+      ]
+    },
+    {
+      "Route": "css/indexx.gwzg7ud196.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\indexx.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDfeKesG5n7C0SsG/mw28Sh/2oIhKW+ofJe8wMxQnOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwzg7ud196"
+        },
+        {
+          "Name": "label",
+          "Value": "css/indexx.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDfeKesG5n7C0SsG/mw28Sh/2oIhKW+ofJe8wMxQnOk="
+        }
+      ]
+    },
+    {
+      "Route": "css/KutukSiparisListesi.92g2njumnk.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0cANd75IuMs/X0ufNEhzBGBLTUMlP5KXiM6YJta9xDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Oct 2024 06:26:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "92g2njumnk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/KutukSiparisListesi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0cANd75IuMs/X0ufNEhzBGBLTUMlP5KXiM6YJta9xDE="
+        }
+      ]
+    },
+    {
+      "Route": "css/KutukSiparisListesi.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Sep 2024 20:33:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/KutukSiparisListesi.j80h7e9fny.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Sep 2024 20:33:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j80h7e9fny"
+        },
+        {
+          "Name": "label",
+          "Value": "css/KutukSiparisListesi.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/KutukSiparisListesi.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0cANd75IuMs/X0ufNEhzBGBLTUMlP5KXiM6YJta9xDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Oct 2024 06:26:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0cANd75IuMs/X0ufNEhzBGBLTUMlP5KXiM6YJta9xDE="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginEkran.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\LoginEkran.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FaLjPr30qo7Cdly75sKcvhIsgjAj4b63u3/frY827Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:41:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FaLjPr30qo7Cdly75sKcvhIsgjAj4b63u3/frY827Qg="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginEkran.frx4aca9ud.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\LoginEkran.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FaLjPr30qo7Cdly75sKcvhIsgjAj4b63u3/frY827Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:41:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "frx4aca9ud"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginEkran.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FaLjPr30qo7Cdly75sKcvhIsgjAj4b63u3/frY827Qg="
+        }
+      ]
+    },
+    {
+      "Route": "css/logo.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"niRsYAYA8z3FR3GG2IWu+nLuysNwBHby3bmywTKx9uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Aug 2024 11:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-niRsYAYA8z3FR3GG2IWu+nLuysNwBHby3bmywTKx9uk="
+        }
+      ]
+    },
+    {
+      "Route": "css/logo.qigrzzy382.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"niRsYAYA8z3FR3GG2IWu+nLuysNwBHby3bmywTKx9uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Aug 2024 11:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qigrzzy382"
+        },
+        {
+          "Name": "label",
+          "Value": "css/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-niRsYAYA8z3FR3GG2IWu+nLuysNwBHby3bmywTKx9uk="
+        }
+      ]
+    },
+    {
+      "Route": "css/logo-other.fwmh493mtt.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo-other.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L4aaE6/AXuwvI2Xk3GphU/kASSQeUc0WQyqCDes8NwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Aug 2024 11:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fwmh493mtt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/logo-other.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L4aaE6/AXuwvI2Xk3GphU/kASSQeUc0WQyqCDes8NwQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/logo-other.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo-other.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L4aaE6/AXuwvI2Xk3GphU/kASSQeUc0WQyqCDes8NwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Aug 2024 11:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L4aaE6/AXuwvI2Xk3GphU/kASSQeUc0WQyqCDes8NwQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/MalKabulList.3cdjnjwxzd.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MalKabulList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q61UxDsXMJlG3XyCqQyuvMtv8P/XBvUmOVp0odKdw6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 21:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3cdjnjwxzd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/MalKabulList.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q61UxDsXMJlG3XyCqQyuvMtv8P/XBvUmOVp0odKdw6o="
+        }
+      ]
+    },
+    {
+      "Route": "css/MalKabulList.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MalKabulList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q61UxDsXMJlG3XyCqQyuvMtv8P/XBvUmOVp0odKdw6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 21:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q61UxDsXMJlG3XyCqQyuvMtv8P/XBvUmOVp0odKdw6o="
+        }
+      ]
+    },
+    {
+      "Route": "css/MES.7i43utl7b0.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MES.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUTtJp34SaPZwzGjO1zVeOlOiPD04GYbx2WvHmXuz+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:26:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7i43utl7b0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/MES.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUTtJp34SaPZwzGjO1zVeOlOiPD04GYbx2WvHmXuz+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/MES.png",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MES.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUTtJp34SaPZwzGjO1zVeOlOiPD04GYbx2WvHmXuz+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 11:26:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUTtJp34SaPZwzGjO1zVeOlOiPD04GYbx2WvHmXuz+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Sep 2024 14:48:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9iHwlthuTxQMUIuh3K3Wp6njR0Q5D5KbZmhYkvOoh1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Sep 2024 15:48:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9iHwlthuTxQMUIuh3K3Wp6njR0Q5D5KbZmhYkvOoh1s="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Sep 2024 14:48:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.qn6lla7gny.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9iHwlthuTxQMUIuh3K3Wp6njR0Q5D5KbZmhYkvOoh1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Sep 2024 15:48:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn6lla7gny"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Register.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9iHwlthuTxQMUIuh3K3Wp6njR0Q5D5KbZmhYkvOoh1s="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokHaraketler.f5sz7panv4.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q0SUmxFqpT94KGqH0R53dbdXuTx8fHczv3PM/HSNjAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Oct 2024 22:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f5sz7panv4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokHaraketler.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q0SUmxFqpT94KGqH0R53dbdXuTx8fHczv3PM/HSNjAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokHaraketler.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q0SUmxFqpT94KGqH0R53dbdXuTx8fHczv3PM/HSNjAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Oct 2024 22:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q0SUmxFqpT94KGqH0R53dbdXuTx8fHczv3PM/HSNjAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokHaraketleri.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketleri.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OtRKSkrpeBVVDOpMtZNdn8AtVQCQVeJq17fl3dDeMc4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Sep 2024 21:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OtRKSkrpeBVVDOpMtZNdn8AtVQCQVeJq17fl3dDeMc4="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokHaraketleri.uvwvkm3d7b.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketleri.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OtRKSkrpeBVVDOpMtZNdn8AtVQCQVeJq17fl3dDeMc4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Sep 2024 21:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uvwvkm3d7b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokHaraketleri.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OtRKSkrpeBVVDOpMtZNdn8AtVQCQVeJq17fl3dDeMc4="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokHareketleriMain.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHareketleriMain.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcLBK8qOQYO7wthXZGDzWftuDZrJ4AWNxcx/vLdXpaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Oct 2024 20:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcLBK8qOQYO7wthXZGDzWftuDZrJ4AWNxcx/vLdXpaA="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokHareketleriMain.z5tvgywnq0.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHareketleriMain.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcLBK8qOQYO7wthXZGDzWftuDZrJ4AWNxcx/vLdXpaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Oct 2024 20:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z5tvgywnq0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokHareketleriMain.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcLBK8qOQYO7wthXZGDzWftuDZrJ4AWNxcx/vLdXpaA="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartıEkl.3ys3lcm2n5.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıEkl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S3rP7tJ2i0gTE+/h30Stz6beLw4vKho0eti+KXRQcJw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Sep 2024 23:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ys3lcm2n5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokKartıEkl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S3rP7tJ2i0gTE+/h30Stz6beLw4vKho0eti+KXRQcJw="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartıEkl.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıEkl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S3rP7tJ2i0gTE+/h30Stz6beLw4vKho0eti+KXRQcJw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Sep 2024 23:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S3rP7tJ2i0gTE+/h30Stz6beLw4vKho0eti+KXRQcJw="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartıTanım.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıTanım.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Sep 2024 17:33:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartıTanım.j80h7e9fny.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıTanım.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Sep 2024 17:33:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j80h7e9fny"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokKartıTanım.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oAPUIHFGwKD38eBcASwqKza6H/J9B+mspv+BBFYfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartiDuzenlee.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiDuzenlee.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GW7r6VD01zFak9K5tdMvEqC9H3xHhIIX1u1agq0dcWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Sep 2024 14:19:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GW7r6VD01zFak9K5tdMvEqC9H3xHhIIX1u1agq0dcWg="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartiDuzenlee.lxqznhmdze.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiDuzenlee.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GW7r6VD01zFak9K5tdMvEqC9H3xHhIIX1u1agq0dcWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Sep 2024 14:19:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxqznhmdze"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokKartiDuzenlee.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GW7r6VD01zFak9K5tdMvEqC9H3xHhIIX1u1agq0dcWg="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartiEkle.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wqcDlbqFbjyJ5Y8qEnUeLaCJ9Am675BTmnJX4WRKFx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 18:23:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wqcDlbqFbjyJ5Y8qEnUeLaCJ9Am675BTmnJX4WRKFx4="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartiEkle.q96aevf2mc.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wqcDlbqFbjyJ5Y8qEnUeLaCJ9Am675BTmnJX4WRKFx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 18:23:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q96aevf2mc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokKartiEkle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wqcDlbqFbjyJ5Y8qEnUeLaCJ9Am675BTmnJX4WRKFx4="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartiTanımm.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiTanımm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jqoybdhxQVoAOS78c5GZAZTqriqw4xZI1XY7NVmFyQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 00:56:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqoybdhxQVoAOS78c5GZAZTqriqw4xZI1XY7NVmFyQQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/StokKartiTanımm.mqhzil2e3t.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiTanımm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jqoybdhxQVoAOS78c5GZAZTqriqw4xZI1XY7NVmFyQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 00:56:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mqhzil2e3t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StokKartiTanımm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqoybdhxQVoAOS78c5GZAZTqriqw4xZI1XY7NVmFyQQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/UretimdenCikisFisiEkle.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UretimdenCikisFisiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EG7AYVRr4whDYmjFwMAhy9uaFhPUqpSusNnwKuTGzvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Sep 2024 12:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EG7AYVRr4whDYmjFwMAhy9uaFhPUqpSusNnwKuTGzvk="
+        }
+      ]
+    },
+    {
+      "Route": "css/UretimdenCikisFisiEkle.k7g0k6rw9a.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UretimdenCikisFisiEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EG7AYVRr4whDYmjFwMAhy9uaFhPUqpSusNnwKuTGzvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Sep 2024 12:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7g0k6rw9a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/UretimdenCikisFisiEkle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EG7AYVRr4whDYmjFwMAhy9uaFhPUqpSusNnwKuTGzvk="
+        }
+      ]
+    },
+    {
+      "Route": "css/UserList.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CEsAOXe2ani+o/WiCH6/JCbZfKHtIZhAamlMYqKhz74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Sep 2024 10:59:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CEsAOXe2ani+o/WiCH6/JCbZfKHtIZhAamlMYqKhz74="
+        }
+      ]
+    },
+    {
+      "Route": "css/UserList.jcydd720bt.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UfhLBc2AOGR9Go/TfHUtWUFG8D93IxRAEf/NfcBGpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Sep 2024 12:19:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jcydd720bt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/UserList.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3UfhLBc2AOGR9Go/TfHUtWUFG8D93IxRAEf/NfcBGpo="
+        }
+      ]
+    },
+    {
+      "Route": "css/UserList.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UfhLBc2AOGR9Go/TfHUtWUFG8D93IxRAEf/NfcBGpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Sep 2024 12:19:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3UfhLBc2AOGR9Go/TfHUtWUFG8D93IxRAEf/NfcBGpo="
+        }
+      ]
+    },
+    {
+      "Route": "css/UserList.kt1j50sh6h.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CEsAOXe2ani+o/WiCH6/JCbZfKHtIZhAamlMYqKhz74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Sep 2024 10:59:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kt1j50sh6h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/UserList.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CEsAOXe2ani+o/WiCH6/JCbZfKHtIZhAamlMYqKhz74="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniCariEkl.63n50c6lyp.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IlQ/qz8OkhMSeWjS8tBjDokKPxyLndYEjcvP263Y2EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Sep 2024 22:48:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63n50c6lyp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/YeniCariEkl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IlQ/qz8OkhMSeWjS8tBjDokKPxyLndYEjcvP263Y2EI="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniCariEkl.689j6vzumi.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ivjF2IE0b/DmPwDWlJkRusQchqACgbinfII5Asr+VlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Sep 2024 00:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "689j6vzumi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/YeniCariEkl.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ivjF2IE0b/DmPwDWlJkRusQchqACgbinfII5Asr+VlM="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniCariEkl.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IlQ/qz8OkhMSeWjS8tBjDokKPxyLndYEjcvP263Y2EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Sep 2024 22:48:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IlQ/qz8OkhMSeWjS8tBjDokKPxyLndYEjcvP263Y2EI="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniCariEkl.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ivjF2IE0b/DmPwDWlJkRusQchqACgbinfII5Asr+VlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Sep 2024 00:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ivjF2IE0b/DmPwDWlJkRusQchqACgbinfII5Asr+VlM="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniDepoEkle.0t8yxa848g.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FAqK7Sxklf4p0MZiR5DyWeJZw4ASKQNrLGc4+vnXbGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Sep 2024 14:22:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0t8yxa848g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/YeniDepoEkle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FAqK7Sxklf4p0MZiR5DyWeJZw4ASKQNrLGc4+vnXbGY="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniDepoEkle.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nk8VpbW0B/djLsg7IPD2Im1RbkHS4irhtqpRI1uqL3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 Aug 2024 12:11:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nk8VpbW0B/djLsg7IPD2Im1RbkHS4irhtqpRI1uqL3c="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniDepoEkle.js",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FAqK7Sxklf4p0MZiR5DyWeJZw4ASKQNrLGc4+vnXbGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Sep 2024 14:22:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FAqK7Sxklf4p0MZiR5DyWeJZw4ASKQNrLGc4+vnXbGY="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniDepoEkle.ukj6rba8n6.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nk8VpbW0B/djLsg7IPD2Im1RbkHS4irhtqpRI1uqL3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 Aug 2024 12:11:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ukj6rba8n6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/YeniDepoEkle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nk8VpbW0B/djLsg7IPD2Im1RbkHS4irhtqpRI1uqL3c="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniObjeEkle.2elod1gtwg.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniObjeEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SpPXH+H8eqMJb1T6jf6OjftkAMIbP11bTaJuPpqdQqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 Aug 2024 21:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2elod1gtwg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/YeniObjeEkle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SpPXH+H8eqMJb1T6jf6OjftkAMIbP11bTaJuPpqdQqA="
+        }
+      ]
+    },
+    {
+      "Route": "css/YeniObjeEkle.css",
+      "AssetFile": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniObjeEkle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SpPXH+H8eqMJb1T6jf6OjftkAMIbP11bTaJuPpqdQqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 Aug 2024 21:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SpPXH+H8eqMJb1T6jf6OjftkAMIbP11bTaJuPpqdQqA="
+        }
+      ]
+    }
+  ]
+}

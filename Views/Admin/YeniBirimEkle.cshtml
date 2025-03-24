@@ -1,0 +1,31 @@
+﻿@model LoginEkrani.Models.Admin.BirimModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniObjeEkle.css"/>
+
+<body>
+    <div class="miniContainer2">
+        <h3>Yeni Birim Ekle</h3>
+        <form action="YeniBirimEklee" method="post">
+            <div class="container" style="float:inline-start">
+                <div class="col-md-6">
+                    <label class="form-label" style="width:100%"> Birim Kodu </label>
+                    <input style="width:100%;" type="text" class="form-control" name="kpsft_birimKodu" id="kpsft_birimKodu" value="@Model.kpsft_birimKodu">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="kpsft_stokAdi" class="form-label">Açıklama </label>
+                    <div class="text-area">
+                        <textarea id="w3review" name="kpsft_aciklama" rows="4" cols="50" placeholder="Açıklama"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+            
+        </form>
+    </div>
+   </body>

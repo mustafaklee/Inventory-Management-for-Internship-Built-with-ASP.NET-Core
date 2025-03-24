@@ -1,0 +1,87 @@
+﻿.containerGiris {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.miniContainer2 {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sol_container {
+    flex: 1;
+}
+
+.input_bloklari {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    .input_bloklari .col-md-6 {
+        flex: 1;
+        min-width: 220px;
+    }
+
+.text-area {
+    flex: 1;
+    margin-left: 20px;
+}
+
+    .text-area textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+#saveButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #saveButton i {
+        margin-right: 5px;
+    }
+
+.table-striped tbody tr:hover {
+    background-color: #69bae7; /* Mavi renk */
+    color: white; /* Yazı rengini beyaz yapmak */
+}
+#example4 thead th {
+    background-color: aliceblue;
+}
+
+table.dataTable thead th {
+    background-color: aliceblue; /* Başlıkların arka plan rengi */
+    color: #64bdd0; /* Başlıkların metin rengi */
+    text-align: center; /* Metni ortala */
+    padding: 10px; /* İç boşluk */
+}
+
+#example3 tbody tr:hover {
+    background-color: #f5f5f5; /* Arka plan rengini seçin */
+    cursor: pointer; /* Fare işaretçisini değiştirin */
+}
+
+
+.containerGiris .miniContainer2 .sol .col-md-6 {
+    margin-top:10px;
+}
+
+
+.form-groups input.form-control {
+    width: 63%;
+    box-sizing: border-box;
+}
+
+.form-control {
+    font-size: 12px;
+}

@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "_Layout"; // Alternatif layout dosyası
+}
+
+
+<script>
+        // Doğrulama kodu gönderildiğinde formu açar
+        function showVerificationForm() {
+            document.getElementById("verification-form").style.display = "block";
+        }
+    </script>
+
+        
+ <form asp-action="SendVerificationCode" method="post">
+                <div class="container">
+                    <label for="kpsft_mailAdrress"><b>E-posta Adresi:</b></label>
+                    <input type="text" id="kpsft_mailAdrress" name="kpsft_mailAdrress" placeholder="E-posta adresinizi girin" required>
+                    <button type="submit" onclick="showVerificationForm()">Kod Gönder</button>
+                </div>
+
+                <!-- Hata Mesajları -->
+                @if (ViewBag.Hata != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @ViewBag.Hata
+                    </div>
+                }
+            </form>

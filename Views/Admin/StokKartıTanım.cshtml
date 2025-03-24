@@ -1,0 +1,99 @@
+﻿<link rel="stylesheet" href="~/css/StokKartıTanım.css">
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <form asp-action="StokKartiEkle" method="get">
+        <button type="submit" style="margin-right: 9px; background-color:white;color:black; border-color:white" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-plus"></i>Yeni</button>
+    </form>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="duzenle" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-pen-to-square"></i>Düzenle</button>
+
+        <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="sil" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-trash"></i>Sil</button>
+    
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="incele" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-clipboard-list"></i>İncele</button>
+</div>
+
+
+
+
+<div class="datatable">
+    <table id="example" class="table table-striped" style="width:300%">
+        <thead>
+            <tr>
+                <th>Stok Kodu</th>
+                <th>Stok Adı</th>
+                <th>Birim</th>
+                <th>Durum</th>
+                <th>Grup Kodu</th>
+                <th>Stok Tipi</th>
+                <th>Satis Kdv Orani</th>
+                <th>Alis Kdv Orani</th>
+                <th>Kalite</th>
+                <th>Kritik Miktar</th>
+                <th>Lot Büyüklüğü</th>
+                <th>Gümrük Tip Kodu</th>
+                <th>Açıklama</th>
+
+
+            </tr>
+            <tr>
+                <th><input class="form-control column-search" id="stokKoduSearch" type="text"></th>
+                <th><input class="form-control column-search" id="stokAdiSearch" type="text"></th>
+                <th><input class="form-control column-search" id="birimSearch" type="text"></th>
+                <th><input class="form-control column-search" id="durumSearch" type="text"></th>
+                <th><input class="form-control column-search" id="grupKoduSearch" type="text"></th>
+                <th><input class="form-control column-search" id="stokKartTipSearch" type="text"></th>
+                <th><input class="form-control column-search" id="satisKdvOraniSearch" type="text"></th>
+                <th><input class="form-control column-search" id="alisKdvOraniSearch" type="text"></th>
+                <th><input class="form-control column-search" id="kaliteSearch" type="text"></th>
+                <th><input class="form-control column-search" id="kritikMiktarSearch" type="text"></th>
+                <th><input class="form-control column-search" id="lotBüyüklüğüSearch" type="text"></th>
+                <th><input class="form-control column-search" id="gumrukTipKoduSearch" type="text"></th>
+                <th><input class="form-control column-search" id="aciklamaSearch" type="text"></th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.kpsft_stokKodu</td>
+                    <td>@item.kpsft_stokAdi</td>
+                    <td>@item.birimModel.kpsft_birimKodu</td>
+                    <td>@item.durum.kpsft_durum</td>
+                    <td>@item.grupModel.kpsft_grup_adi</td>
+                    <td>@item.stokTipi.kpsft_kod</td>
+                    <td>@item.satisKdvOrani.kpsft_kdv_orani</td>
+                    <td>@item.alisKdvOraniModel.kpsft_kdv_orani</td>
+                    <td>@item.kaliteModel.kpsft_kalite_kod</td>
+                    <td>@item.kpsft_kritikMiktar</td>
+                    <td>@item.kpsft_lotBuyuklugu</td>
+                    <td>@item.gumrukKoduModel.kpsft_gumruk_kodu</td>
+                    <td>@item.kpsft_aciklama</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+<!-- Silme Onay Modali -->
+<div id="silmeModal" class="modal">
+    <div class="modal-content">
+        <h4>Onay</h4>
+        <p>Gerçekten bu kaydı silmek istiyor musunuz?</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" id="confirmDelete" class="modal-close btn">Evet</a>
+        <a href="#!" class="modal-close btn">Hayır</a>
+    </div>
+</div>
+
+<script src="~/css/StokKartiTanımm.js"></script>

@@ -1,0 +1,26 @@
+﻿@model LoginEkrani.Models.Admin.GumrukKoduModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniObjeEkle.css" />
+
+<div class="miniContainer2">
+    <h3>Yeni Gümrük Kodu Ekle</h3>
+    <form asp-action="YeniGumrukKoduEklee" method="post">
+        <div class="container" style="float: inline-start">
+            <div class="col-md-6">
+                <label class="form-label" style="width: 100%">Gümrük Kodu</label>
+                <input style="width: 100%;" type="text" class="form-control" name="kpsft_gumruk_kodu" id="kpsft_gumruk_kodu" value="@Model.kpsft_gumruk_kodu" required>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label" for="kpsft_aciklama">Açıklama</label>
+                <textarea class="form-control" name="kpsft_aciklama" rows="4" placeholder="Açıklama">@Model.kpsft_aciklama</textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+    </form>
+</div>

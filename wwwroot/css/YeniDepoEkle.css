@@ -1,0 +1,156 @@
+﻿.form2 {
+    background-color: #eeeeee; /* Arka plan rengi beyaz */
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    width: 60%;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+
+/* Tüm input elemanları için placeholder ve value yazı tipi boyutunu ayarla */
+input::placeholder {
+    font-size: 12px; /* Placeholder yazı tipi boyutu */
+}
+
+input {
+    font-size: 12px; /* Kullanıcı girdisi veya value yazı tipi boyutu */
+}
+
+.container2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    max-width: 1300px;
+}
+
+.miniContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    max-height: 1000px;
+    height: 340px;
+    display: flex;
+}
+
+.miniContainer2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.container2 .miniContainer2 .input_bloklari {
+    display: flex;
+    flex-wrap: wrap; /* Flex elemanlarının sarmalanmasını sağlar */
+}
+
+.container2 .miniContainer2 .col-md-6 {
+    display: block;
+    width: 100%;
+}
+
+/* Form elemanlarının genişliğini ayarlamak için */
+.container2 .tab-content .col-md-6 {
+    display: block;
+}
+
+    /* Form kontrol elemanlarının genişliğini ayarlamak için */
+    .container2 .tab-content .col-md-6 .form-control {
+        width: 100%; /* Tüm genişliği kaplasın */
+        padding: 8px; /* İç dolgu */
+        font-size: 12px; /* Yazı boyutu */
+        height: 27px;
+    }
+
+.container2 .tab {
+    overflow: hidden;
+    background-color: white;
+}
+
+    /* Style the buttons inside the tab */
+    .container2 .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 13px;
+    }
+
+        /* Change background color of buttons on hover */
+        .container2 .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .container2 .tab button.active {
+            background-color: lightgrey;
+        }
+
+.container2 .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    BACKGROUND-COLOR: white;
+}
+
+
+
+
+/* Kaydet Butonu */
+.container2 .btn-primary {
+    color: white;
+    border-color: white;
+    margin-bottom: 10px;
+    background-color: teal;
+}
+
+input[type="text"] {
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 3px;
+    width: 100%; /* Genişliği %100 olarak ayarla */
+    height: 26px; /* Yüksekliği ayarla */
+    box-sizing: border-box;
+    font-size: 12px;
+    max-width: 80%;
+}
+
+.container2 {
+    width: 100%;
+    /* Geniş ekranlar için maksimum genişlik belirler */
+    /* Ortalar */
+    /* İçeriğe göre ayarlanabilir */
+    max-width: 13650px;
+    margin-top: 0px;
+}
+
+.miniContainer .col-md-6,
+.input_bloklari {
+    flex: 1 1 45%; /* Elemanların eşit genişlikte olmasını sağlar */
+    min-width: 300px; /* Minimum genişlik belirler */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+
+.required {
+    color: red; /* Kırmızı renk */
+    font-size: 16px; /* Yazı boyutu */
+    margin-left: 5px; /* Alanla arası mesafe */
+}
+
+
+
+
+.text-area {
+    flex: 1;
+    margin-left: 20px;
+}

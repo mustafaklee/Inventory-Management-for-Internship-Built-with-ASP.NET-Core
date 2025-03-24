@@ -1,0 +1,33 @@
+﻿@model LoginEkrani.Models.Admin.VergiDairesiModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniObjeEkle.css" />
+
+<div class="miniContainer2">
+    <h3>Yeni Vergi Dairesi Ekle</h3>
+    <form action="YeniVergiDairesi" method="post">
+        <div class="container" style="float: inline-start">
+            <div class="col-md-6">
+                <label class="form-label" style="width: 100%">Vergi Dairesi Kodu</label>
+                <input style="width: 100%;" type="text" class="form-control" name="kpsft_vergiDKodu" id="kpsft_vergiDKodu" value="@Model.kpsft_vergiDKodu">
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label" style="width: 100%">Vergi Dairesi Adı</label>
+                <input style="width: 100%;" type="text" class="form-control" name="kpsft_vergiDAdi" id="kpsft_vergiDAdi" value="@Model.kpsft_vergiDAdi">
+            </div>
+
+            <div class="col-md-6">
+                <label for="kpsft_aciklama" class="form-label">Açıklama</label>
+                <div class="text-area">
+                    <textarea name="kpsft_aciklama" rows="4" cols="50" placeholder="Açıklama">@Model.kpsft_aciklama</textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+    </form>
+</div>

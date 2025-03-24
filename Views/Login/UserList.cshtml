@@ -1,0 +1,56 @@
+﻿@model IEnumerable<LoginEkrani.Models.Login.LoginPageModel>
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+    ViewData["Title"] = "Kullanıcı Listesi";
+}
+
+<link href="~/css/UserList.css" rel="stylesheet" />
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <form asp-action="Register" method="get">
+        <button type="submit" style="margin-right: 9px; background-color:white;color:black; border-color:white" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-plus"></i>Yeni</button>
+    </form>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="duzenle" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-pen-to-square"></i>Düzenle</button>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="sil" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-trash"></i>Sil</button>
+</div>
+
+<!-- Kullanıcı Listesi Görünümü -->
+<div class="datatable">
+    <div class="form-wrapper">
+        <h3>Kayıtlı Kullanıcılar</h3>
+
+        <table id="exampleUserList" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Rol</th>
+                    <th>Kullanıcı Adı</th>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Mail Adresi</th>
+                    <th>TC Kimliği</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>
+                            @string.Join(", ", user.UserRoles.Select(ur => ur.Role.kpsft_rol))
+                        </td>
+                        <td>@user.kpsft_kullaniciAdi</td>
+                        <td>@user.kpsft_ad</td>
+                        <td>@user.kpsft_soyad</td>
+                        <td>@user.kpsft_mailAdrress</td>
+                        <td>@user.kpsft_tcKimlik</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<script src = "~/css/UserList.js"></script>

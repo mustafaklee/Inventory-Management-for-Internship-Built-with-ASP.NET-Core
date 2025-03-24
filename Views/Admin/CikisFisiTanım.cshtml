@@ -1,0 +1,64 @@
+﻿@model LoginEkrani.Models.Admin.DoubleModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/GirisFisiTanım.css">
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <form asp-action="CariCikisFisiEkle" method="get">
+        <button type="submit" style="margin-right: 9px; background-color:white;color:black; border-color:white" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-plus"></i>Yeni</button>
+    </form>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="duzenle" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-pen-to-square"></i>Düzenle</button>
+
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="sil" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-trash"></i>Sil</button>
+    
+</div>
+<h3>Depo Çıkış Fişleri</h3>
+<div class="datatable">
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+
+                <th>Fiş No</th>
+                <th>Tarih</th>
+                <th>Fiş Türü</th>
+                <th>Depo Adi</th>
+                <th>Depo Türü</th>
+                <th>İşlem Kaynağı</th>
+            </tr>
+            <tr>
+                <th><input class="form-control" id="fisNoSearch" type="text"></th>
+                <th><input class="form-control" id="tarihSearch" type="text"></th>
+                <th><input class="form-control" id="fisturuSearch" type="text"></th>
+                <th><input class="form-control" id="cariSearch" type="text"></th>
+                <th><input class="form-control" id="cariSearch" type="text"></th>
+                <th><input class="form-control" id="depoSearch" type="text"></th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            @foreach (var item in Model.FisTabloCariModelList)
+            {
+                <tr>
+                    <td>@item.kpsft_FisNo</td>
+                    <td>@item.kpsft_tarih</td>
+                    <td>@item.kpsft_FisTuru</td>
+                    <td>@item.Depo.kpsft_depoAd</td>
+                    <td>@item.Depo.depoTuru.kpsft_depoTuru</td>
+                    <td>
+                        @item.Cariislem.kpsft_cariAd
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<script src="~/css/CikisFisiTanım.js"></script> <!-- JavaScript dosyasını buraya ekleyin -->

@@ -1,0 +1,113 @@
+﻿@model LoginEkrani.Models.Admin.FisTabloModel
+
+
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/StokHaraketleri.css">
+<!-- Flatpickr CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<form>
+    <div class="row g-3 align-items-end">
+        <div class="col-md-3">
+            <label for="min" class="form-label">Başlangıç Tarihi:</label>
+            <input type="text" id="min" name="min" class="form-control" placeholder="Başlangıç Tarihi Seçin">
+        </div>
+        <div class="col-md-3">
+            <label for="max" class="form-label">Bitiş Tarihi:</label>
+            <input type="text" id="max" name="max" class="form-control" placeholder="Bitiş Tarihi Seçin">
+        </div>
+        <div class="col-md-2">
+            <label for="filterDepo" class="form-label">Depo:</label>
+            <select id="filterDepo" name="filterDepo" class="form-control">
+                <option value="">Depo Seçin</option>
+                @foreach (var depo in ViewBag.depolar)
+                {
+                    <option value=@depo.kpsft_depoAd>@depo.kpsft_depoAd</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="filterCari" class="form-label">Cari:</label>
+            <select id="filterCari" name="filterCari" class="form-control">
+                <option value="">Cari Seçin</option>
+                @foreach (var cari in ViewBag.cariler)
+                {
+                    <option value=@cari.kpsft_cariKod>@cari.kpsft_cariAd</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-success w-100">
+                <i class="bi bi-search"></i> Uygula
+            </button>
+        </div>
+    </div>
+</form>
+
+
+
+
+@{
+    int i = 0;
+}
+
+<div class="datatable">
+    <table id="example5" class="table table-striped" style="width:100%;">
+        <thead>
+            <tr>
+                <th>Tarih</th>
+                <th>Stok Kodu</th>
+                <th>Stok Adı</th>
+                <th>Birim</th>
+                <th>Fiş Numarası</th>
+                <th>İşlem Tipi</th>
+                <th>İşlem Miktarı</th>
+                <th>Depo Güncel Miktar</th>
+                <th>Depo</th>
+                <th>İşlem Kaynağı</th>
+            </tr>
+            <tr>
+                <th><input class="form-control" id="tarihSearch" type="text" placeholder="Tarih"></th>
+                <th><input class="form-control" id="stokKoduSearch" type="text" placeholder="Stok Kodu"></th>
+                <th><input class="form-control" id="stokAdiSearch" type="text" placeholder="Stok Adı"></th>
+                <th><input class="form-control" id="birimSearch" type="text" placeholder="Birim"></th>
+                <th><input class="form-control" id="islemTipiSearch" type="text" placeholder="Fiş Numarası"></th>
+                <th><input class="form-control" id="islemTipiSearch" type="text" placeholder="İşlem Tipi"></th>
+                <th><input class="form-control" id="miktarSearch" type="text" placeholder="Miktar"></th>
+                <th><input class="form-control" id="miktarSearch" type="text" placeholder="Mevcut Miktar"></th>
+                <th><input class="form-control" id="depoSearch" type="text" placeholder="Depo"></th>
+                <th><input class="form-control" id="islemKaynağıSearch" type="text" placeholder="İşlem Kaynağı"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.FisHaraketleriCari)
+            {
+                var rowClass = item.fistablocariModel.kpsft_FisTuru == "Giriş Fişi" ? "giris-fisi" :
+                item.fistablocariModel.kpsft_FisTuru == "Çıkış Fişi" ? "cikis-fisi" : "";
+                <tr class="@rowClass">
+                    <td>@item.fistablocariModel.kpsft_tarih</td>
+                    <td>@item.StokKartı.kpsft_stokKodu</td>
+                    <td>@item.StokKartı.kpsft_stokAdi</td>
+                    <td>@item.StokKartı.birimModel.kpsft_birimKodu</td>
+                    <td>@item.fistablocariModel.kpsft_FisNo</td>
+                    <td>@item.fistablocariModel.kpsft_FisTuru</td>
+                    <td>@item.kpsft_Miktar</td>
+                    <td>@ViewBag.StokGuncelMiktarlar[i]</td>
+                    <td>@item.fistablocariModel.Depo.kpsft_depoKod</td>
+                    <td>@item.fistablocariModel.Cariislem.kpsft_cariAd</td>
+                </tr>
+                i++;
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+<script src="~/css/StokHaraketler.js"></script> <!-- JavaScript dosyasını buraya ekleyin -->

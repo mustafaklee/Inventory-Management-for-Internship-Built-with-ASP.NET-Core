@@ -1,0 +1,209 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.css",
+      "PackagePath": "staticwebassets\\css\\AdmınIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\AdmınIndex.js",
+      "PackagePath": "staticwebassets\\css\\AdmınIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiDuzenle.js",
+      "PackagePath": "staticwebassets\\css\\CariCikisFisiDuzenle.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.css",
+      "PackagePath": "staticwebassets\\css\\CariCikisFisiEkle.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariCikisFisiEkle.js",
+      "PackagePath": "staticwebassets\\css\\CariCikisFisiEkle.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiDuzenlee.js",
+      "PackagePath": "staticwebassets\\css\\CariGirisFisiDuzenlee.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.css",
+      "PackagePath": "staticwebassets\\css\\CariGirisFisiEkle.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariGirisFisiEkle.js",
+      "PackagePath": "staticwebassets\\css\\CariGirisFisiEkle.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.css",
+      "PackagePath": "staticwebassets\\css\\CariTanımss.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CariTanımss.js",
+      "PackagePath": "staticwebassets\\css\\CariTanımss.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\CikisFisiTanım.js",
+      "PackagePath": "staticwebassets\\css\\CikisFisiTanım.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.css",
+      "PackagePath": "staticwebassets\\css\\DepoTanıms.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepoTanıms.js",
+      "PackagePath": "staticwebassets\\css\\DepoTanıms.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\DepolarArasıTransfer.js",
+      "PackagePath": "staticwebassets\\css\\DepolarArasıTransfer.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Executaion.png",
+      "PackagePath": "staticwebassets\\css\\Executaion.png"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORM.js",
+      "PackagePath": "staticwebassets\\css\\FORM.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\FORMM.css",
+      "PackagePath": "staticwebassets\\css\\FORMM.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanimm.js",
+      "PackagePath": "staticwebassets\\css\\GirisFisiTanimm.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\GirisFisiTanım.css",
+      "PackagePath": "staticwebassets\\css\\GirisFisiTanım.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.css",
+      "PackagePath": "staticwebassets\\css\\KutukSiparisListesi.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\KutukSiparisListesi.js",
+      "PackagePath": "staticwebassets\\css\\KutukSiparisListesi.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\LoginEkran.css",
+      "PackagePath": "staticwebassets\\css\\LoginEkran.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MES.png",
+      "PackagePath": "staticwebassets\\css\\MES.png"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\MalKabulList.js",
+      "PackagePath": "staticwebassets\\css\\MalKabulList.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\Register.js",
+      "PackagePath": "staticwebassets\\css\\Register.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketler.js",
+      "PackagePath": "staticwebassets\\css\\StokHaraketler.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHaraketleri.css",
+      "PackagePath": "staticwebassets\\css\\StokHaraketleri.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokHareketleriMain.js",
+      "PackagePath": "staticwebassets\\css\\StokHareketleriMain.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiDuzenlee.js",
+      "PackagePath": "staticwebassets\\css\\StokKartiDuzenlee.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiEkle.js",
+      "PackagePath": "staticwebassets\\css\\StokKartiEkle.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartiTanımm.js",
+      "PackagePath": "staticwebassets\\css\\StokKartiTanımm.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıEkl.css",
+      "PackagePath": "staticwebassets\\css\\StokKartıEkl.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\StokKartıTanım.css",
+      "PackagePath": "staticwebassets\\css\\StokKartıTanım.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UretimdenCikisFisiEkle.js",
+      "PackagePath": "staticwebassets\\css\\UretimdenCikisFisiEkle.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.css",
+      "PackagePath": "staticwebassets\\css\\UserList.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\UserList.js",
+      "PackagePath": "staticwebassets\\css\\UserList.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.css",
+      "PackagePath": "staticwebassets\\css\\YeniCariEkl.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniCariEkl.js",
+      "PackagePath": "staticwebassets\\css\\YeniCariEkl.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.css",
+      "PackagePath": "staticwebassets\\css\\YeniDepoEkle.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniDepoEkle.js",
+      "PackagePath": "staticwebassets\\css\\YeniDepoEkle.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\YeniObjeEkle.css",
+      "PackagePath": "staticwebassets\\css\\YeniObjeEkle.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\azupir-mes2.png",
+      "PackagePath": "staticwebassets\\css\\azupir-mes2.png"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\indexx.css",
+      "PackagePath": "staticwebassets\\css\\indexx.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo-other.png",
+      "PackagePath": "staticwebassets\\css\\logo-other.png"
+    },
+    {
+      "Id": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\wwwroot\\css\\logo.png",
+      "PackagePath": "staticwebassets\\css\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LoginEkrani.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LoginEkrani.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LoginEkrani.props",
+      "PackagePath": "build\\LoginEkrani.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LoginEkrani.props",
+      "PackagePath": "buildMultiTargeting\\LoginEkrani.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LoginEkrani.props",
+      "PackagePath": "buildTransitive\\LoginEkrani.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

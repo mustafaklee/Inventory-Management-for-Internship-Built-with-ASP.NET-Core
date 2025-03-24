@@ -1,0 +1,36 @@
+﻿.miniContainer2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    float: inline-start;
+}
+    .miniContainer2 .container .input_bloklari {
+        display: flex;
+        flex-wrap: wrap; /* Flex elemanlarının sarmalanmasını sağlar */
+    }
+
+miniContainer2 .container .col-md-6 {
+    display: block;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 600px;
+}
+
+.form-control {
+    font-size: 14px;
+    padding: 8px;
+}
+
+.form-label {
+    font-size: 14px;
+}
+
+.btn-primary {
+    font-size: 14px;
+    padding: 8px 16px;
+}

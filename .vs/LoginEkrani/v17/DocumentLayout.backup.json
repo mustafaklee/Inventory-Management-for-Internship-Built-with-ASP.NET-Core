@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|c:\\users\\musta\\source\\repos\\loginekrani\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|c:\\users\\musta\\source\\repos\\loginekrani\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|c:\\users\\musta\\source\\repos\\loginekrani\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|c:\\users\\musta\\source\\repos\\loginekrani\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4963EE0C-2BE5-4FAC-A432-91E9BCB588AF}|LoginEkrani.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 240,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T12:14:09.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T12:13:40.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T12:13:35.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\web.config",
+              "RelativeDocumentMoniker": "web.config",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\LoginEkrani\\web.config",
+              "RelativeToolTip": "web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-15T12:13:33.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

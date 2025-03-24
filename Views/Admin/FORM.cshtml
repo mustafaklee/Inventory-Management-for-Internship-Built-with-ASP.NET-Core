@@ -1,0 +1,351 @@
+﻿@model LoginEkrani.Models.Admin.DoubleModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+
+
+@{
+    var today = DateTime.Now.ToString("yyyy-MM-dd");
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="~/css/FORMM.css">
+<h3>Sipariş Formu</h3>
+<div class="containerGiris">
+    <form id="fisForm" method="post" action="/Admin/FORM">
+        <div class="miniContainer2" style="margin-bottom:30px;">
+
+            <div class="sol_container">
+                <div class="input_bloklari">
+                    <div class="col-md-6">
+                        <label for="kpsft_FisNo" class="form-label">Belge No:</label>
+                        <input type="text" class="form-control" name="formTabloModel.kpsft_evrakNo" id="kpsft_evrakNo">
+                    </div>
+
+                    
+
+
+                    <div>
+                        <label for="kpsft_tarih" class="form-label">Evrak Tarihi</label>
+                        <input type="date" class="form-control" name="formTabloModel.kpsft_evrak_tarih" id="kpsft_tarih_evrak" value="@today">
+                    </div>
+
+
+                    <div>
+                        <label for="kpsft_tarih" class="form-label">Teslim Tarihi</label>
+                        <input type="date" class="form-control" name="formTabloModel.kpsft_teslim_tarih" id="kpsft_tarih_teslim">
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <br />
+            <br />
+
+            <div class="sol" style="display: flex; flex-wrap: wrap;">
+
+                <!-- Sol Sütun -->
+                <div style="display: flex; margin-right: 20px;">
+                    <!-- Sol Sütun -->
+                    <div style="flex: 1; display: flex;">
+                        <!-- Sol Alt Sütun -->
+                        <div style="flex: 1; margin-right: 10px;">
+                            <div class="col-md-6" style="display:table-cell;">
+                                <label for="kpsft_islemKaynagiCari">Cari</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" style="cursor: pointer;" data-toggle="modal" data-target="#carimodal">
+                                        <i class="fa-solid fa-list"></i>
+                                    </span>
+
+                                    <input type="text" id="kpsft_cari" class="form-control" name="formTabloModel.kpsft_cari" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="kpsft_cariAd" class="form-label" style="width:100%">Cari Adı </label>
+                                <input type="text" style="width:100%;" class="form-control" required id="kpsft_cariAd">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="kpsft_vergiNo" class="form-label" style="width:100%">Vergi No</label>
+                                <input type="text" style="width:100%;" class="form-control"  id="kpsft_vergiNo">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="kpsft_vergiDairesi" class="form-label" style="width:100%">Vergi Dairesi</label>
+                                <input type="text" style="width:100%;" class="form-control"  id="kpsft_vergiDairesi">
+                            </div>
+
+                            
+                        </div>
+
+                        <!-- Sağ Alt Sütun -->
+                        <div style="flex: 1; margin-left: 10px;">
+
+                            <div class="col-md-12">
+                                <label for="kpsft_adres1" class="form-label" style="width:100%">Adres</label>
+                                <input type="text" style="width:100%;" class="form-control" id="kpsft_adres1">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="kpsft_telefon1" class="form-label" style="width:100%">Telefon</label>
+                                <input type="text" style="width:100%;" class="form-control" id="kpsft_telefon1">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="kpsft_email" class="form-label" style="width:100%">Email</label>
+                                <input type="text" style="width:100%;" class="form-control" id="kpsft_email">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="paraBirimi" class="form-label" style="width:100%">Para Birimi Seçin</label>
+                                <select class="form-select" style="width:100%;" id="paraBirimi" name="formTabloModel.kpsft_paraBirim">
+                                    <option selected>Para Birimi Seçin</option>
+                                    <option value="Dolar">Dolar</option>
+                                    <option value="Euro">Euro</option>
+                                    <option value="Türk Lirası">Türk Lirası</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Sağ Sütun -->
+                <div style="display: flex; margin-left:120px; flex-wrap:nowrap;" >
+
+                    <div style="flex: 1;">
+                        <div class="form-groups" >
+                            <label class="form-label">Toplamlar</label>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center" >
+                                    Toplam:
+                                    <input id="total" class="form-control form-control-sm text-right" type="text" readonly value="0">
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    KDV
+                                    <input id="kdv" class="form-control form-control-sm text-right" type="text" readonly value="0">
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Genel Toplam
+                                    <input id="grandTotal" class="form-control form-control-sm text-right" type="text" readonly value="0">
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div style="flex: 1; margin-right: 20px;">
+                        <div class="text-area">
+                            <label>Açıklama</label>
+                            <textarea id="kpsft_aciklama" name="formTabloModel.kpsft_aciklama" rows="4" cols="20" placeholder="Açıklama"></textarea>
+                        </div>
+
+                        <div class="text-area" style="margin-top: 20px;">
+                            <label>Satıcı Notları</label>
+                            <textarea id="kpsft_satici_notu" name="formTabloModel.kpsft_satici_notu" rows="4" cols="20" placeholder="Satıcı Notu"></textarea>
+                        </div>
+
+                        <button type="submit" id="saveButton" class="btn btn-primary" style="margin-top: 20px; font-size: 12px; margin-left:71%;">
+                            <i class="fa-regular fa-floppy-disk"></i> Kaydet
+                        </button>
+                    </div>
+
+                </div>
+                
+            </div>
+                </div>
+
+
+
+        <br />
+        <br />
+
+
+        
+
+
+
+
+        <div class="datatable">
+            <table id="example3" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+
+                        <th>Stok Kodu</th>
+                        <th>Stok Adi</th>
+                        <th>Miktar</th>
+                        <th>Birim</th>
+                        <th>Birim Fiyat</th>
+                        <th>Gemi</th>
+                        <th>Kdv</th>
+                        <th>Tutar</th>
+                    </tr>
+                    <tr>
+                        <th><input class="form-control" id="stokKoduSearch" type="text" placeholder="Stok Kodu Ara"></th>
+                        <th><input class="form-control" id="stokAdiSearch" type="text" placeholder="Stok Adı Ara"></th>
+                        <th><input class="form-control" id="miktarSearch" type="text" placeholder="Miktar Giriniz"></th>
+                        <th><input class="form-control" id="birimSearch" type="text" placeholder="Birim Ara"></th>
+                        <th><input class="form-control" id="birimFiyatSearch" type="text" placeholder="Birim Fiyatı"></th>
+                        <th><input class="form-control" id="gemiSearch" type="text" placeholder="Gemi"></th>
+                        <th><input class="form-control" id="kdvSearch" type="text" placeholder="Kdv"></th>
+                        <th><input class="form-control" id="tutarSearch" type="text" placeholder="Tutar"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var stok in Model.StokKartıModel)
+                    {
+                        <tr>
+                            <td>@stok.kpsft_stokKodu</td>
+                            <td>@stok.kpsft_stokAdi</td>
+                            <td></td>
+                            <td>@stok.birimModel.kpsft_birimKodu</td>
+                            <td></td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+            <div style="display:flex">
+                <button type="button" id="addRowButton" class="btn btn-primary" style="margin-bottom:10px; font-size: 12px; margin-top:10px; background-color :#f6b54c; display:block">
+                    <i class="fa-solid fa-plus"></i>    Ekle
+                </button>
+
+                <button type="button" id="deleteRow" class="btn btn-primary" style="margin-bottom:10px; font-size: 12px; margin-top:10px; background-color :#f6b54c; display:block; margin-left: 5px;">
+                    <i class="fa-solid fa-plus"></i>    Satır Sil
+                </button>
+            </div>
+
+
+
+        <div class="datatable" style="margin-top: 50px;">
+            <table id="example4" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Stok Kodu</th>
+                        <th>Stok Adi</th>
+                        <th>Miktar</th>
+                        <th>Birim</th>
+                        <th>Birim Fiyat</th>
+                        <th>Gemi</th>
+                        <th>Kdv</th>
+                        <th>Tutar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dinamik olarak eklenen satırlar burada görünecek -->
+                </tbody>
+            </table>
+        </div>
+    </form>
+
+
+
+
+
+
+
+    <!--      -------------------     modallar          -------------------------------->
+    <!--Alert Modal-->
+    <div class="modal fade" id="miktarBosModal" tabindex="-1" aria-labelledby="miktarBosModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Miktar alanına uygun değeri girin!
+                </div>
+                <button style="    width: 30%;margin-left: 70%;" type="button" class="btn btn-secondary" data-dismiss="modal" onclick="$('#miktarBosModal').modal('hide')">
+                    Kapat
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="teslim_tarih_bos_modal" tabindex="-1" aria-labelledby="teslim_tarih_bos_modallabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Teslim Tarihi alanına uygun değeri girin!
+                </div>
+                <button style="    width: 30%;margin-left: 70%;" type="button" class="btn btn-secondary" data-dismiss="modal" onclick="$('#miktarBosModal').modal('hide')">
+                    Kapat
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="carimodal" tabindex="-1" aria-labelledby="carimodallabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carimodallabel">Cari Seçiniz</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Cari Kodu</th>
+                                <th>Cari Adi</th>
+                                <th>Cari Tipi</th>
+                                <th>Seç</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var cari in Model.cariModel)
+                            {
+                                <tr>
+                                    <td>@cari.kpsft_cariKod</td>
+                                    <td>@cari.kpsft_cariAd</td>
+                                    <td>@cari.kpsft_cariTipi</td>
+                                    <td>
+                                        <button class="btn btn-primary select-cari" data-dismiss="modal" data-kod="@cari.kpsft_cariKod"
+                                                data-ad="@cari.kpsft_cariAd"
+                                                data-vno="@cari.kpsft_vergiNo"
+                                                data-vdaire="@cari.kpsft_vergiDairesi"
+                                                data-adres="@cari.kpsft_adres1"
+                                                data-telefon="@cari.kpsft_telefon1"
+                                                data-email="@cari.kpsft_email">
+                                            Seç
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <form asp-action="YeniCariEkle" asp-controller="Admin" method="get">
+                        <button class="btn btn-primary">Yeni</button>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+<script src="~/css/FORM.js"></script>

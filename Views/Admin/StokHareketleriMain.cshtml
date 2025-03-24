@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/StokKartıTanım.css">
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="incele" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-clipboard-list"></i>İncele</button>
+</div>
+
+<h3>Stok Listesi</h3>
+
+<div class="datatable">
+    <table id="example5" class="table table-striped" style="width:100%;">
+        <thead>
+            <tr>
+                <th>Stok Kodu</th>
+                <th>Stok Adı</th>
+                <th>Birim</th>
+            </tr>
+            <tr>
+                <th><input class="form-control" id="stokKoduSearch" type="text" placeholder="Stok Kodu"></th>
+                <th><input class="form-control" id="stokAdiSearch" type="text" placeholder="Stok Adı"></th>
+                <th><input class="form-control" id="birimSearch" type="text" placeholder="Birim"></th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.kpsft_stokKodu</td>
+                        <td>@item.kpsft_stokAdi</td>
+                        <td>@item.birimModel.kpsft_birimKodu</td>
+                    </tr>
+             
+                }
+        </tbody>
+    </table>
+</div>
+
+
+<script src="~/css/StokHareketleriMain.js"></script> <!-- JavaScript dosyasını buraya ekleyin -->

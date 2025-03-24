@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LoginEkrani
+build_property.RootNamespace = LoginEkrani
+build_property.ProjectDir = C:\Users\musta\source\repos\LoginEkrani\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\musta\source\repos\LoginEkrani
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CariCikisFisiDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyaUNpa2lzRmlzaUR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CariCikisFisiEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyaUNpa2lzRmlzaUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CariDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyaUR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CariGirisFisiDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyaUdpcmlzRmlzaUR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CariGirisFisiEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyaUdpcmlzRmlzaUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CariTanım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyaVRhbsSxbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/CikisFisiTanım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2lraXNGaXNpVGFuxLFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/DepoKartiDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwb0thcnRpRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/DepolarArasıTransfer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwb2xhckFyYXPEsVRyYW5zZmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/DepoTanım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwb1RhbsSxbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/FORM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRk9STS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/GirisFisiTanım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lyaXNGaXNpVGFuxLFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/KutukSiparisListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS3V0dWtTaXBhcmlzTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/MalKabulList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFsS2FidWxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/StokHareketleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3Rva0hhcmVrZXRsZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/StokHareketleriMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3Rva0hhcmVrZXRsZXJpTWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/StokKartiDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3Rva0thcnRpRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/StokKartiEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3Rva0thcnRpRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/StokKartiIncele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3Rva0thcnRpSW5jZWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/StokKartıTanım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3Rva0thcnTEsVRhbsSxbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniAlisKdvOraniEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUFsaXNLZHZPcmFuaUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniBirimEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUJpcmltRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniCariEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUNhcmlFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniDepoEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaURlcG9Fa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniGrupKoduEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUdydXBLb2R1RWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniGumrukKoduEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUd1bXJ1a0tvZHVFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniKaliteEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUthbGl0ZUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniSatisKdvOraniEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaVNhdGlzS2R2T3JhbmlFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniStokTipiEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaVN0b2tUaXBpRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Admin/YeniVergiDairesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaVZlcmdpRGFpcmVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Login/InputMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5wdXRNYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Login/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Login/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/musta/source/repos/LoginEkrani/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

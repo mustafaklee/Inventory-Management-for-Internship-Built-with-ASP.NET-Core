@@ -1,0 +1,49 @@
+﻿@model LoginEkrani.Models.Admin.DoubleModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+
+<link rel="stylesheet" href="~/css/KutukSiparisListesi.css">
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="teslimAl" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-pen-to-square"></i>Teslim Al</button>
+</div>
+
+<h3>Bekleyen Sipariş Listesi</h3>
+<div class="datatable" style="margin-top: 50px;">
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Evrak No</th>
+                <th>Stok Kodu</th>
+                <th>Stok Adı</th>
+                <td>Birim</td>
+                <th>Kalite</th>
+                <th>Miktar</th>
+                <th>Gemi</th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var form in Model.formHareketiModel)
+                {
+                <tr>
+                    <td>@form.kpsft_evrakNo</td>
+                    <td>@form.kpsft_stokKod</td>
+                    <td>@form.stokKartıModel.kpsft_stokAdi</td>
+                    <td>@form.stokKartıModel.birimModel.kpsft_birimKodu</td>
+                    <td>@form.stokKartıModel.kaliteModel.kpsft_kalite_kod</td>
+                    <td>@form.kpsft_Miktar</td>
+                    <td>@form.kpsft_gemi</td>
+                </tr>
+                }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<script src="~/css/MalKabulList.js"></script> 

@@ -1,0 +1,117 @@
+﻿@model LoginEkrani.Models.Admin.KaliteModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniObjeEkle.css" />
+
+<div class="miniContainer2" style="width:100%;">
+    <h3>Yeni Kalite Ekle</h3>
+    <form asp-action="YeniKaliteEklee" method="post">
+        <div class="container" style="float:inline-start">
+            <div style="display:block;"> 
+
+                <div class="col-md-6">
+                    <label class="form-label" style="width:100%">Kalite Numarası</label>
+                    <input style="width:100%;" type="text" class="form-control" name="kpsft_kalite_no" id="kpsft_kalite_no" value="@ViewBag.newKaliteNo">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label" style="width:100%;">Kalite Kodu</label>
+                    <input style="width:100%;" type="text" class="form-control" name="kpsft_kalite_kod" id="kpsft_kalite_kod" value="@Model.kpsft_kalite_kod">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label" style="width:100%">Kalite Standardı</label>
+                    <input style="width:100%;" type="text" class="form-control" name="kpsft_ilgiliStandart" id="kpsft_ilgiliStandart" value="@Model.kpsft_ilgiliStandart">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="kpsft_aciklama" class="form-label">Açıklama</label>
+                    <div class="text-area">
+                        <textarea name="kpsft_aciklama" rows="4" cols="50" placeholder="Açıklama">@Model.kpsft_aciklama</textarea>
+                    </div>
+                </div>
+            </div>
+            <!-- Kimyasal Özellikler İlk Satır -->
+            <div class="row mt-3">
+                <div class="col-md-2">
+                    <label class="form-label">C%</label>
+                    <input type="text" class="form-control" name="kpsft_c">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Mn%</label>
+                    <input type="text" class="form-control" name="kpsft_mn">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Si%</label>
+                    <input type="text" class="form-control" name="kpsft_si">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">S% max</label>
+                    <input type="text" class="form-control" name="kpsft_s_max">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">P% max</label>
+                    <input type="text" class="form-control" name="kpsft_p_max">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">N ppm max</label>
+                    <input type="text" class="form-control" name="kpsft_n">
+                </div>
+            </div>
+
+            <!-- Kimyasal Özellikler İkinci Satır -->
+            <div class="row mt-3">
+                <div class="col-md-2">
+                    <label class="form-label">Ceq%</label>
+                    <input type="text" class="form-control" name="kpsft_ceq">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Cu% max</label>
+                    <input type="text" class="form-control" name="kpsft_cu">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Al%</label>
+                    <input type="text" class="form-control" name="kpsft_al">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Mo%</label>
+                    <input type="text" class="form-control" name="kpsft_mo">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">V%</label>
+                    <input type="text" class="form-control" name="kpsft_v">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">B%</label>
+                    <input type="text" class="form-control" name="kpsft_b">
+                </div>
+            </div>
+
+            <!-- Kimyasal Özellikler Üçüncü Satır -->
+            <div class="row mt-3">
+                <div class="col-md-2">
+                    <label class="form-label">Ca%</label>
+                    <input type="text" class="form-control" name="kpsft_ca">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Ti%</label>
+                    <input type="text" class="form-control" name="kpsft_ti">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Sn%</label>
+                    <input type="text" class="form-control" name="kpsft_sn">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">As%</label>
+                    <input type="text" class="form-control" name="kpsft_as">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary mt-3">Kaydet</button>
+        </div>
+    </form>
+</div>

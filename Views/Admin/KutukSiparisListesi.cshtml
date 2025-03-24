@@ -1,0 +1,71 @@
+﻿@model LoginEkrani.Models.Admin.DoubleModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+
+<link rel="stylesheet" href="~/css/KutukSiparisListesi.css">
+
+<div class="miniContainer" style="margin-bottom:30px; display:flex;">
+    <form asp-action="FORM" method="get">
+        <button type="submit" style="margin-right: 9px; background-color:white;color:black; border-color:white" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-plus"></i>Yeni</button>
+    </form>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="duzenle" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-pen-to-square"></i>Düzenle</button>
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="sil" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-trash"></i>Sil</button>
+
+
+    <button style="margin-right: 9px; background-color:white;color:black; border-color:white" id="incele" class="btn btn-primary"><i style="padding:3px;" class="fa-solid fa-clipboard-list"></i>İncele</button>
+</div>
+
+<h3>Kütük Sipariş Listesi</h3>
+<div class="datatable">
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Belge No</th>
+                <th>Evrak Tarihi</th>
+                <th>Teslim Tarihi</th>
+                <th>Cari</th>
+                <th>Para Birimi</th>
+                <th>Açıklama</th>
+                <th>Satıcı Notu</th>
+            </tr>
+            <tr>
+                <th><input class="form-control" id="fisNoSearch" type="text" placeholder="Belge No"></th>
+                <th><input class="form-control" id="tarihSearch" type="text" placeholder="Tarih"></th>
+                <th><input class="form-control" id="teslimTarihSearch" type="text" placeholder="Teslim Tarihi"></th>
+                <th><input class="form-control" id="cariSearch" type="text" placeholder="Cari"></th>
+                <th><input class="form-control" id="aciklamaSearch" type="text" placeholder="Açıklama"></th>
+                <th><input class="form-control" id="saticiNotuSearch" type="text" placeholder="Satıcı Notu"></th>
+                <th><input class="form-control" id="paraBirimiSearch" type="text" placeholder="Para Birimi"></th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+
+            @foreach (var item in Model.formTabloModelList)
+            {
+                <tr>
+                    <td>@item.kpsft_evrakNo</td>
+                    <td>@item.kpsft_evrak_tarih</td>
+                    <td>@item.kpsft_teslim_tarih</td>
+                    <td>@item.kpsft_cari</td>
+                    <td>@item.kpsft_paraBirim</td>
+                    <td>
+                        @item.kpsft_aciklama
+                    </td>
+                    <td>@item.kpsft_satici_notu</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<script src="~/css/KutukSiparisListesi.js"></script> <!-- JavaScript dosyasını buraya ekleyin -->

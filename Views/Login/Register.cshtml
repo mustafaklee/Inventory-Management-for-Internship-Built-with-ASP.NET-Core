@@ -1,0 +1,73 @@
+﻿@model LoginEkrani.Models.Login.LoginPageModel
+
+@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+    ViewData["Title"] = "Kullanıcı Ekleme/Düzenleme";
+}
+
+<link href="~/css/Register.css" rel="stylesheet" />
+
+<div style="display:flex;">
+
+<div class="container5">
+    <div class="form-wrapper" style="text-align:center;">
+        <h1>Kullanıcı Ekleme/Düzenleme</h1>
+        <form asp-action="Register" method="post" id="form">
+            <div class="form-group">
+                <label for="kpsft_kullaniciAdi">Kullanıcı Adı</label>
+                <input type="text" id="kpsft_kullaniciAdi" class="form-control" name="kpsft_kullaniciAdi" required value="@Model.kpsft_kullaniciAdi">
+            </div>
+            <div class="form-group">
+                <label for="kpsft_ad">Adı</label>
+                <input type="text" id="kpsft_ad" name="kpsft_ad" required value="@Model.kpsft_ad">
+            </div>
+            <div class="form-group">
+                <label for="kpsft_soyad">Soyadı</label>
+                <input type="text" id="kpsft_soyad" name="kpsft_soyad" required value="@Model.kpsft_soyad">
+            </div>
+            <div class="form-group">
+                <label for="kpsft_mailAdrress">Mail Adresi</label>
+                <input type="email" id="kpsft_mailAdrress" name="kpsft_mailAdrress" required value="@Model.kpsft_mailAdrress">
+            </div>
+            <div class="form-group">
+                <label for="kpsft_sifre">Şifre</label>
+                <input type="password" id="kpsft_sifre" name="kpsft_sifre" required>
+            </div>
+            <div class="form-group">
+                <label for="kpsft_tcKimlik">TC Kimliği</label>
+                <input type="text" id="kpsft_tcKimlik" name="kpsft_tcKimlik" required value="@Model.kpsft_tcKimlik">
+            </div>
+
+                <input type="hidden" id="selectedRoles" name="UserRoles">
+
+                @{
+                    List<int> selectedRoleIds = new List<int>();
+                    if (Model.UserRoles != null)
+                    {
+                        selectedRoleIds = Model.UserRoles.Select(ur => ur.kpsft_rol_id).ToList();
+                    }
+                }
+
+
+                @foreach (var Role in ViewBag.Roles)
+                {
+                    <div class="form-check">
+                        @if (selectedRoleIds.Contains(Role.id_kpsft))
+                        {
+                            <input class="form-check-input" type="checkbox" name="selectedRoles" value="@Role.id_kpsft" id="role_@Role.id_kpsft" checked>
+                        }
+                        else
+                        {
+                            <input class="form-check-input" type="checkbox" name="selectedRoles" value="@Role.id_kpsft" id="role_@Role.id_kpsft">
+                        }
+                        <label class="form-check-label" for="role_@Role.id_kpsft">
+                            @Role.kpsft_rol
+                        </label>
+                    </div>
+                }
+
+            <button type="submit" class="submit-button">Kaydet</button>
+        </form>
+    </div>
+</div>
+</div>

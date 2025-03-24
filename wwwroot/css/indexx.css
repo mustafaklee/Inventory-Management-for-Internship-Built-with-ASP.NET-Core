@@ -1,0 +1,127 @@
+﻿/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4b0082;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Sidebar */
+.side-bar {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    background-color: #4b0082;
+    transition: width 0.3s ease;
+}
+
+    .side-bar .logo {
+        text-align: center;
+        padding: 20px;
+        background-color: #4b0082;
+    }
+
+        .side-bar .logo img {
+            max-width: 155px;
+            height: auto;
+        }
+
+    .side-bar .menu {
+        padding: 20px 0;
+    }
+
+        .side-bar .menu .item {
+            margin: 10px 0;
+            padding: 10px 20px;
+        }
+
+            .side-bar .menu .item a {
+                display: block;
+                color: #ecf0f1;
+                font-size: 16px;
+                padding: 10px 0;
+                border-left: 3px solid transparent;
+                transition: background-color 0.3s, border-left 0.3s;
+                text-decoration: none;
+            }
+
+                .side-bar .menu .item a:hover,
+                .side-bar .menu .item a.active {
+                    background-color: #4b0082;
+                    border-left: 3px solid #1abc9c;
+                }
+
+        .side-bar .menu .sub-btn {
+            cursor: pointer;
+            position: relative;
+        }
+
+            .side-bar .menu .sub-btn i.dropdown {
+                position: absolute;
+                right: 10px;
+                transition: transform 0.3s ease;
+            }
+
+        .side-bar .menu .sub-menu {
+            display: none;
+            padding-left: 20px;
+            background-color: #4b0082;
+        }
+
+            .side-bar .menu .sub-menu .sub-item {
+                padding: 8px 0;
+                font-size: 14px;
+            }
+
+/* Dropdown arrow rotation */
+.rotate {
+    transform: rotate(90deg);
+}
+
+/* Navbar */
+.navbar {
+    margin-left: 220px;
+    height: 60px;
+    background-color: #4b0082;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ecf0f1;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+    .navbar a {
+        color: #ecf0f1;
+        font-size: 16px;
+        margin: 0 15px;
+    }
+
+    .navbar .user-message a {
+        margin-left: 20px;
+        text-decoration: none;
+    }
+
+/* İçerik */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    min-height: calc(100vh - 60px);
+}
+
+.body .menu .a {
+    text-decoration: none;
+}
+
+a, .side-bar .menu .item a, .navbar a, .navbar .user-message a {
+    text-decoration: none !important;
+    color: white;
+}

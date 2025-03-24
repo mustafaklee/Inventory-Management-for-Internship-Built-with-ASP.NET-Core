@@ -1,0 +1,253 @@
+﻿@{
+    Layout = "_Layout2"; // Alternatif layout dosyası
+}
+
+<link rel="stylesheet" href="~/css/YeniCariEkl.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<h3>Cari Tanım</h3>
+<div class="container2">
+    <form asp-action="YeniCariEkle" method="post" id="myForm">
+        <button type="submit" id="saveButton" class="btn btn-primary saveButton" style="margin-bottom:10px; font-size: 12px; background-color:#384c5c;">
+            <i class="fa-regular fa-floppy-disk"></i> Kaydet
+        </button>
+
+
+        <button type="button" id="generateCodeButton" class="btn btn-primary" style="margin-bottom:10px; font-size: 12px; background-color:#384c5c;">
+            <i class="fa-solid fa-arrows-rotate"></i> Kod Üret
+        </button>
+
+        <div class="miniContainer" style="margin-bottom:30px; display:flex;">
+            <div class="birinciGrup">
+
+                <div class="col-md-6">
+                    <label for="kpsft_cariKod" class="form-label" style="width:100%">Cari Kodu <span class="required">*</span></label>
+                    <input style="width:100%;" type="text" class="form-control" name="cariModel.kpsft_cariKod" required id="kpsft_cariKod" >
+                </div>
+
+                <div class="col-md-6">
+                    <label for="kpsft_cariAd" class="form-label">Cari Adı <span class="required">*</span></label>
+                    <input type="text" style="width:100%;" class="form-control" name="cariModel.kpsft_cariAd" required id="kpsft_cariAd" >
+                </div>
+
+                <div class="form-check form-switch" style="margin-left: 7%;margin-top: 3%;">
+                    <input class="form-check-input" style="height: 73%; width: 11%;" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked" style="margin-left: 4%; margin-top: 1%;" id="switchLabel">Aktif</label>
+                    <input type="hidden" id="checkboxValue" class="form-control" name="cariModel.kpsft_durum">
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="ikinciGrup">
+
+                <div class="col-md-6">
+                    <label for="kpsft_vergiNo" class="form-label">Vergi No <span class="required">*</span></label>
+                    <input type="text" style="width:100%;" class="form-control" name="cariModel.kpsft_vergiNo" required id="kpsft_vergiNo" >
+                </div>
+
+
+
+
+                <div class="col-md-6">
+                    <label for="kpsft_cariAd2" class="form-label">Cari Adı 2 <span class="required">*</span> </label>
+                    <input type="text" style="width:100%;" class="form-control" name="cariModel.kpsft_cariAd2" id="kpsft_cariAd2">
+                </div>
+                
+            </div>
+
+            <div class="dorduncuGrup">
+
+
+                <div class="col-md-6">
+                    <label for="kpsft_vergiNo" class="form-label">Vergi Dairesi<span class="required">*</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text" data-toggle="modal" style="height:26px; cursor: pointer;" data-target="#vergidairesiModal">
+                            <i class="fa-solid fa-list"></i>
+                        </span>
+                        <input type="text" id="kpsft_vergiDairesi" required readonly>
+                        <!-- Gizli ID alanı -->
+                        <input type="hidden" id="kpsft_vergiDairesi_id" class="form-control" name="cariModel.kpsft_vergiDairesi">
+                    </div>
+                </div>
+
+
+
+                <div class="dorduncuGrup" style="flex: 1; min-width: 300px;">
+                    <div class="col-md-12">
+                        <label for="kpsft_yurticiDisi">Yurtiçi/Yurtdışı <span class="required">*</span></label>
+                        <select class="form-select" name="cariModel.kpsft_yurticiDisi" style="width: 54%; font-size: 12px;">
+                            <option value="0" selected>Seçiniz</option>
+                            <option value="1">Yurtiçi</option>
+                            <option value="2">Yurtdışı</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+
+            <div class="ucuncuGrup">
+                <div class="dorduncuGrup" style="flex: 1; min-width: 300px;">
+                    <div class="col-md-12">
+                        <label for="kpsft_cariTipi">Cari Tür </label>
+                        <select class="form-select" name="cariModel.kpsft_cariTipi" style="width: 54%; font-size: 12px;">
+                            <option value="0" selected>Seçiniz</option>
+                            <option value="1">Müşteri</option>
+                            <option value="2">Tedarikçi</option>
+                            <option value="3">Müşteri/Tedarikçi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="dorduncuGrup" style="flex: 1; min-width: 300px;margin-top: 19px;">
+                    <div class="col-md-12">
+                        <label for="kpsft_fason_uretim">Fason Üretim <span class="required">*</span></label>
+                        <select class="form-select" name="cariModel.kpsft_fason_uretim" style="width: 54%; font-size: 12px;">
+                            <option value="2" selected>Seçiniz</option>
+                            <option value="1">Evet</option>
+                            <option value="0">Hayır</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="tab">
+            <button class="tablinks active" type="button" onclick="openCity(event, 'London')">Adres Bilgileri</button>
+            <button class="tablinks" type="button" onclick="openCity(event, 'Paris')">İletişim Bilgileri</button>
+            <button class="tablinks" type="button" onclick="openCity(event, 'Tokyo')">Banka Bilgileri</button>
+        </div>
+
+        <div id="London" class="tabcontent" style="display:block;">
+            <div class="miniContainer2" style="margin-bottom:30px;">
+                <div class="input_bloklari">
+                    <div class="col-md-6">
+                        <label for="kpsft_adres1" class="form-label">Adres 1</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_adres1" id="kpsft_adres1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="kpsft_adres2" class="form-label">Adres 2</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_adres2" id="kpsft_adres2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="kpsft_adres3" class="form-label">Adres 3</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_adres3" id="kpsft_adres3">
+                    </div>
+                </div>
+
+                <label style="margin-left: 12px;" for="kpsft_aciklama" class="form-label">Açıklama</label>
+                <div class="input_bloklari">
+                    <div class="col-md-6">
+                        <textarea id="w3review" name="cariModel.kpsft_aciklama" rows="4" cols="50" placeholder="Açıklama"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Paris" class="tabcontent" style="display:none;">
+            <div class="miniContainer2" style="margin-bottom:30px;">
+                <div class="input_bloklari">
+                    <div class="col-md-6">
+                        <label for="kpsft_telefon1" class="form-label">Telefon 1</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_telefon1" id="kpsft_telefon1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="kpsft_telefon2" class="form-label">Telefon 2</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_telefon2" id="kpsft_telefon2">
+                    </div>
+                </div>
+                <div class="input_bloklari">
+                    <div class="col-md-6">
+                        <label for="kpsft_email" class="form-label">Email</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_email" id="kpsft_email">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="kpsft_web_sitesi" class="form-label">Web Sitesi</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_web_sitesi" id="kpsft_web_sitesi">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Tokyo" class="tabcontent" style="display:none;">
+            <div class="miniContainer2" style="margin-bottom:30px;">
+                <div class="input_bloklari">
+                    <div class="col-md-6">
+                        <label for="kpsft_ıban" class="form-label">Iban</label>
+                        <input type="text" class="form-control" name="cariModel.kpsft_ıban" id="kpsft_ıban">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </form>
+
+
+
+
+
+    <!--vergidairesiModal-->
+    <div class="modal" id="vergidairesiModal" tabindex="-1" aria-labelledby="vergidairesiModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vergidairesiModalLabel">Vergi Dairesi Seçiniz</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Vergi Dairesi</th>
+                                <th>Vergi Dairesi Adı</th>
+                                <th>Seç</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var vergiD in Model.vergidairesiModel)
+                            {
+                                <tr>
+                                    <td>@vergiD.kpsft_vergiDKodu</td>
+                                    <td>@vergiD.kpsft_vergiDAdi</td>
+                                    <td>@vergiD.kpsft_aciklama</td>
+                                    <td>
+                                        <button class="btn btn-primary select-vergiD" data-dismiss="modal" data-id="@vergiD.kpsft_vergiDKodu" data-value="@vergiD.kpsft_vergiDAdi">Seç</button>
+
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <form asp-action="YeniVergiDairesi" asp-controller="Admin" method="get">
+                        <button class="btn btn-primary">Yeni</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+
+<script src="~/css/YeniCariEkl.js"></script>

@@ -1,0 +1,28 @@
+﻿
+
+
+@{
+    Layout = "_Layout"; // Alternatif layout dosyası
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form asp-action="Login" method="post">
+    <div class="container">
+        <label for="kpsft_kullaniciAdi"><b>Kullanıcı Adı</b></label>
+        <input type="text" id="kpsft_kullaniciAdi" placeholder="Kullanıcı Adı" name="kpsft_kullaniciAdi" value="@Model.kpsft_kullaniciAdi" required>
+
+        <label for="kpsft_sifre"><b>Şifre</b></label>
+        <input type="password" id="kpsft_sifre" placeholder="Şifre" name="kpsft_sifre" value="@Model.kpsft_sifre" required>
+
+        <button type="submit">Giriş Yap</button>
+    </div>
+
+    <span class="psw"><a href="/Login/InputMail">Şifrenizi mi unuttunuz?</a></span>
+    @if (ViewBag.Hata != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @ViewBag.Hata
+        </div>
+    }
+</form>
